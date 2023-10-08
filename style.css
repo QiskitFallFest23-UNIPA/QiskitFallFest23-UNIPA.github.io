@@ -318,7 +318,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/assets/img/map-image.jpg');
+    background-image: url('/assets/img/blue_gradient.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -724,7 +724,7 @@ aside img {
 
 section#contacts {
     background-color: #222;
-    background-image: url('/assets/img/map-image.png');
+    background-image: url('/assets/img/blue_gradient.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -945,4 +945,21 @@ blockquote {
 blockquote footer {
     text-align: right;
 }
+/* set the `theme_number` variable in `_config.yml` to the theme number you want to use */
 
+
+/*------------------Theme 0------------------*/
+
+header.theme-0{
+    background-image: url('/assets/img/blue_gradient.jpg');
+}
+
+/*------------------Theme 1------------------*/
+
+header.theme-1{
+    background-image: url('/assets/img/qiskit_fall_fest_23/wallpapers/Partner wallpaper 2.png');
+}
+
+nav.theme-1 {
+    background-color: #0000003d
+}
