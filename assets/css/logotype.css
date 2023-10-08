@@ -1,0 +1,32 @@
+
+.logotype {
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.ibm {
+    font-family: 'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    color: white;
+}
+
+.palermo {
+    /*font-family: 'Merriweather', serif;*/
+    font-family: 'Tektur', cursive;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    color: white;
+}
+
+.italy>.green {
+    color: #009246; /*Pantone 17-6153, 'Fern green'*/
+    color: #00eb71; /*unofficial, but more light*/
+}
+.italy>.white {
+    color: #F4F5F0; /*Pantone 11-0601 'Bright White'*/
+}
+.italy>.red {
+    color: #CD212A; /*Pantone 18-1662. 'Flame Scarlet'*/
+}

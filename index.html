@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Qiskit Fall Fest 2023 @ Palermo, Italy</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Discover Quantum Computing">
+    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//">
+
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href=" /style.css">
+    <link rel="stylesheet" href=" /assets/css/font-awesome/css/font-awesome.min.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href=" /assets/css/logotype.css">
+    <link href='https://fonts.googleapis.com/css?family=Salsa' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!--Custom Fonts QFF23-->
+    <link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css2?family=Merriweather&display=swap' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css2?family=Tektur&display=swap' rel='stylesheet' type='text/css'>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- iubenda autoblocking cookies-->
+    <script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = { "askConsentAtCookiePolicyUpdate": true, "floatingPreferencesButtonDisplay": "bottom-left", "lang": "en-GB", "perPurposeConsent": true, "siteId": 3308330, "whitelabel": false, "cookiePolicyId": 60725282, "banner": { "acceptButtonDisplay": true, "backgroundOverlay": true, "closeButtonRejects": true, "customizeButtonDisplay": true, "explicitWithdrawal": true, "listPurposes": true, "position": "float-bottom-center" } };
+    </script>
+    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3308330.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+    <!--END iubenda autoblocking cookies-->
+
+</head>
+
+<body id="home" class="index" data-spy="scroll" data-target="#navbarHome">
+
+  <!-- Navigation -->
+<style>
+    .dropdown-menu.dropdown-menu-custom {
+        background: none;
+        border: 1px solid white;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .dropdown-menu.dropdown-menu-custom.dropdown-menu-custom-shrink {
+        background-color: #222;
+    }
+
+
+    .navbar {
+        border-radius: 0px;
+    }
+</style>
+
+<!-- #FIXME: dropdown does not close itself when mouseleave-->
+<!-- # FIXME: compare this snippet from _includes/navigation.html and try to merge them in a single file using some if/else statement-->
+
+<!-- Navigation -->
+
+<nav id="navbarHome" class="navbar navbar-default navbar-fixed-top">
+    
+
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand page-scroll"
+                    href="#home">
+                    <!--<span class="white">Qiskit Fall Fest 2023 @ </span><span class="green">Pa</span><span
+                    class="white">ler</span><span class="red">mo</span>-->
+                    <span class="logotype">
+                        <span class="ibm">Qiskit Fall Fest 2023</span><span class="palermo italy"> @ <span
+                                class="green">Pa</span><span class="white">ler</span><span class="red">mo</span></span>
+                    </span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- <li><a href="#home">Home</a></li>-->
+                    <!-- <li><a href="/">Home</a></li>-->
+                    <!--<li><a class="page-scroll" href="/about.html">About</a></li>-->
+
+                    
+                    <!--<a href="#about" >About</a>-->
+
+                    
+                    <li>
+                        <a class="page-scroll"
+                            href="#about">About</a>
+                    </li>
+                    
+
+                    
+                    <!--<a href="#partners" >Partners</a>-->
+
+                    
+                    <li>
+                        <a class="page-scroll"
+                            href="#partners">Partners</a>
+                    </li>
+                    
+
+                    
+                    <!--<a href="#event" >The event</a>-->
+
+                    
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">The event <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-menu-custom dropdown-menu-custom-shrink" role="menu">
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#organizers">Organizers</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+  <!-- Header -->
+
+<style>
+  .full-jumbo {
+      height: 100vh;
+      width: 100vw;
+  }
+
+  .micio {
+    width: 25%;
+    max-width: 400px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+</style>
+
+
+<header class="full-jumbo">
+<div class="container">
+    <div class="intro-text">
+        <div class="intro-lead-in logotype">We are arriving!</div>
+        <div class="intro-heading logotype">ARE YOU READY?</div>
+        <a href="#about" class="page-scroll btn btn-xl">Tell me more!</a>
+    </div>
+</div>
+<!-- I decided to add this file instead of edit the layout -->
+
+
+<style>
+
+ .marquee {
+    width: 100%;
+    background-color: #0000003d;
+    /* color: black;*/
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    /*
+    font-size: 72px;
+    height: 190px;
+    line-height: 190px;
+    white-space: nowrap;
+    */
+  }
+
+  .marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    /*
+    animation called marquee which runs for 15 seconds and loops infinitely.
+    This animation sets the element to translate from 0 to -100% along the x-axis.
+    */
+    animation: marquee 20s linear infinite;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Roboto Slab, sans-serif;
+    /* Change font */
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+</style>
+<div class="marquee">
+  <p>• We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving!</p>
+</div>
+
+<script>
+  // the script must be put after the marquee div and the style tag
+  // Update the animation duration based on the length of the text in the marquee div
+  var marqueeP = document.querySelector('.marquee > p');
+  var textLength = marqueeP.textContent.length;
+  var animationDuration = textLength / 6;
+  marqueeP.style.animationDuration = `${animationDuration}s`;
+</script>
+
+<img src="/assets/img/micio.png" class="micio">
+</header>
+
+<main>
+    <!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+
+                
+
+                
+<p><b> Welcome to Qiskit Fall Fest 2023 @ Palermo!</b></p>
+
+<p>We are thrilled to invite you to the most exciting global event about the quantum computing promoted by <a href="https://www.ibm.com/quantum" target="_blank">IBM Quantum</a> and the 
+<a href="https://qiskit.org" target="_blank">Qiskit community</a>: the <a href="https://qiskit.org/events/fall-fest" target="_blank">Qiskit Fall Fest</a>!</p>
+
+<blockquote cite="https://qiskit.org/events/fall-fest/">
+  The Qiskit Fall Fest is a collection of quantum computing events on college campuses around the world. Every Fall Fest event is organized and run by the students on each campus, with support from IBM Quantum. Student leaders work alongside IBM to design and plan their event, which are run in October and November. Each event is standalone - only made for the students on that particular campus. The events vary from technical hackathons to beginner-friendly challenges, all with the goal of helping to grow the local community's skill set. 
+  <footer><a href="https://qiskit.org/events/fall-fest/" target="_blank">qiskit.org</a></footer>
+</blockquote>
+
+<p>This year a Qiskit Fall Fest event will be held also in Palermo and it will be hosted by the <i><a href="https://www.unipa.it" target="_blank">Università degli Studi di Palermo</a></i>, Italy</p>
+
+<p>The Qiskit Fall Fest is a celebration of quantum technology, research, and collaboration, bringing together quantum enthusiasts, researchers, students, and professionals from around the world. Whether you’re a quantum expert or just starting your journey into the quantum realm, this event is designed for you.</p>
+
+<p>We are looking forward to seeing you at the event!</p>
+
+
+
+                <br> <!-- add some space in better way-->
+            </div>
+        </div>
+        <div class="row">
+            
+        </div>
+
+
+    </div>
+</section>
+
+<style>
+    /* Timeline image */
+    .timeline-image {
+        max-width: 100px;
+        border-radius: 50%;
+    }
+</style>
+    <!-- Partners section -->
+<section id="partners">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Partners</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://qiskit.org/" target="_blank">
+                    <img src="assets/img/logos/qiskit_logotype.svg" class="img-responsive img-centered"
+                            alt="qiskit_logotype.svg" style="max-height: 100px;">
+                    </a>
+                    <div style="text-align: justify; padding-top: 20px;">
+                        <p>Qiskit is an open-source framework for working with noisy quantum computers at the level of pulses, circuits, and algorithms. It provides tools for creating and manipulating quantum programs and running them on prototype quantum devices on IBM Quantum Experience or on simulators on a local computer. Qiskit also enables the user to optimize quantum circuits for a particular device, perform quantum computing experiments on real devices with little effort, and easily access to IBM Quantum hardware through the cloud.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.ibm.com/quantum" target="_blank">
+                    <img src="assets/img/logos/ibm_logo.png" class="img-responsive img-centered"
+                            alt="ibm_logo.png" style="max-height: 100px;">
+                    </a>
+                    <div style="text-align: justify; padding-top: 20px;">
+                        <p>IBM Quantum is an industry-first initiative to build universal quantum computers for business, engineering and science. This effort includes advancing the entire quantum computing technology stack and exploring applications to make quantum broadly usable and accessible. With a worldwide network of Fortune 500 companies, academic institutions, researchers, educators, and enthusiasts, IBM Quantum is committed to driving innovation for clients in the IBM Q Network and the Qiskit Community.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Organizers Section -->
+<section id="organizers" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Organizers</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="assets/img/organizers/alberto.png" class="img-responsive img-circle" alt="">
+                    <h4>Alberto Miserendino</h4>
+                    <p class="text-muted">(Lead Organizer)<br>Quantum cloud engineer @ Nexum, Rome<br> M.Sc. student in Physics @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/albertomiserendino/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="assets/img/organizers/alessandro.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Alessandro Catalano</h4>
+                    <p class="text-muted">M.Sc. student in Physics @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/alessandro-catalano-01297828b/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="assets/img/organizers/gabriele.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Gabriele Lo Cascio</h4>
+                    <p class="text-muted">B.Sc. student in Innovation Engineering @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/gabriele-lo-cascio-197609221/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://github.com/Gabro29" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.youtube.com/@ga8r0" target="_blank">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="assets/img/organizers/user_default.png" class="img-responsive img-circle" alt="">
+                    <h4>Roberto Battaglia</h4>
+                    <p class="text-muted">(collaborator)<br>Software Engineer @ Monese<br> B.Sc. in Physics @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/robertobatts/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://github.com/robertobatts" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+</main>
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="copyright">Copyright &copy; Qiskit Fall Fest 2023 @ Palermo, Italy 2023 - All Rights
+                    Reserved</span>
+            </div>
+            <!--
+            <div class="col-md-8"></div>
+            <div class="col-md-4"></div>
+            -->
+        </div>
+        <div class="row">            
+            <div class="col-md-12">
+                <ul class="list-inline quicklinks">
+                    <li>
+                        <!-- Privacy policy - iubenda -->
+                        <a href="https://www.iubenda.com/privacy-policy/60725282" title="Privacy Policy">Privacy Policy</a>
+                        <!-- END Privacy policy - iubenda -->
+                    </li>
+                    <li>
+                        | <!-- Cookie policy - iubenda -->
+                        <a href="https://www.iubenda.com/privacy-policy/60725282/cookie-policy" title="Cookie Policy">Cookie Policy</a>  
+                        <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+                        <!-- END Cookie policy - iubenda -->
+                    </li>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-inline social-buttons">
+                    
+                    <li><a href="https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io"><i class="fa fa-github"></i></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+  <!--modals.html-->
+  <!-- jQuery Version 1.11.0 -->
+<script src=" /assets/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src=" /assets/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src=" /assets/js/jquery.easing.min.js"></script>
+<script src=" /assets/js/classie.js"></script>
+<script src=" /assets/js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src=" /assets/js/jqBootstrapValidation.js"></script>
+<script src=" /assets/js/contact_me.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src=" /assets/js/agency.js"></script>
+
+
+<script>
+   // Find all img and svg elements on the page
+   const imgElements = document.querySelectorAll('img');
+   const svgElements = document.querySelectorAll('svg');
+
+   // Add the oncontextmenu attribute to disable the context menu
+   imgElements.forEach((img) => {
+      img.setAttribute('oncontextmenu', 'return false;');
+   });
+
+   svgElements.forEach((svg) => {
+      svg.setAttribute('oncontextmenu', 'return false;');
+   });
+</script>
+
+</body>
+
+</html>
