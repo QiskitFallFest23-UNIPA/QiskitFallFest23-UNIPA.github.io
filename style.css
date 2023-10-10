@@ -12,7 +12,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #333;
@@ -129,6 +129,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
+    white-space: unset !important;
     padding: 20px 40px;
     border-color: #2d7dc7;
     border-radius: 3px;
@@ -944,6 +945,11 @@ blockquote {
 
 blockquote footer {
     text-align: right;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 /* set the `theme_number` variable in `_config.yml` to the theme number you want to use */
 
