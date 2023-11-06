@@ -329,7 +329,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 50px;
 }
 
@@ -354,7 +354,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 200px;
     }
 
@@ -391,7 +391,7 @@ section {
 }
 
 section h2.section-heading {
-    margin-top: 0;
+    margin-top: 15px;
     margin-bottom: 15px;
     font-size: 40px;
 }
@@ -699,7 +699,8 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -940,11 +941,15 @@ img::-moz-selection {
 
 blockquote {
     font-style: italic;
-    font-size: inherit;
+    font-size: inherit;    
+    text-align: justify;
+
 }
 
 blockquote footer {
     text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .row {
@@ -956,16 +961,27 @@ blockquote footer {
 
 /*------------------Theme 0------------------*/
 
-header.theme-0{
+header.theme-0 {
+    /*background-image: url('/assets/img/blue_gradient.jpg');*/
     background-image: url('/assets/img/blue_gradient.jpg');
 }
 
 /*------------------Theme 1------------------*/
 
-header.theme-1{
-    background-image: url('/assets/img/qiskit_fall_fest_23/wallpapers/Partner wallpaper 2.png');
+header.theme-1 {
+    background-size: 90%;
+    background-image: url('/assets/img/qff23/wallpapers/Partner wallpaper 2.png');
+    background-repeat: no-repeat;
+    background-color: #fdf9eb;
+}
+
+@media(min-width:768px) {
+    header.theme-1 {
+        background-size: 85%;
+    }
 }
 
 nav.theme-1 {
     background-color: #0000003d
 }
+

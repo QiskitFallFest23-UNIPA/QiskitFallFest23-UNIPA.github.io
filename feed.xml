@@ -5,9 +5,442 @@
     <description>Discover Quantum Computing</description>
     <link>https://qiskitfallfest23-unipa.github.io//</link>
     <atom:link href="https://qiskitfallfest23-unipa.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Oct 2023 08:11:31 +0000</pubDate>
-    <lastBuildDate>Wed, 11 Oct 2023 08:11:31 +0000</lastBuildDate>
+    <pubDate>Mon, 06 Nov 2023 08:27:59 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Nov 2023 08:27:59 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>QFF23 challenges</title>
+        <description>&lt;p&gt;Jupiter notebooks which are python-based coding notebooks and inside of those notebooks there’s some tutorial content that teaches people about some new thing and Quantum Computing and then there are code challenges built into it where people have to fill in code based on the tutorials they just read and then submit their answers to an auto grader which will tell them whether they’re correct or not we have built a series of these Labs or these challenge notebooks for you to use as part of your event and we’re going to send them to you as a zip file so you don’t need to sign into IBM Quantum and register there we’re actually going to send them directly to you and then you can distribute them to your participants.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/28/QFF23-challenges.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/28/QFF23-challenges.html</guid>
+        
+        <category>QFF23</category>
+        
+        
+        <category>QFF23</category>
+        
+      </item>
+    
+      <item>
+        <title>Why to partecipate</title>
+        <description>
+&lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-12 text-right&quot;&gt;
+            &lt;div class=&quot;btn-group&quot;&gt;
+                &lt;button id=&quot;englishBtn&quot; class=&quot;btn btn-primary&quot;&gt;English&lt;/button&gt;
+                &lt;button id=&quot;italianBtn&quot; class=&quot;btn btn-primary&quot;&gt;Italian&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-12&quot;&gt;
+
+            
+
+            
+            
+            
+
+            
+
+
+            &lt;h1 class=&quot;lang-en &quot;&gt;Why to partecipate&lt;/h1&gt;
+            &lt;div class=&quot;lang-en &quot;&gt;
+&lt;p&gt;Dear reader,&lt;/p&gt;
+
+&lt;p&gt;It all started with a simple idea and a shared passion: bringing the innovation and magic of quantum computing closer to everyone. We are a group of enthusiastic students who have come together to create a unique experience for science and technology lovers, and today we want to share with you our story of how the “Qiskit for Fest” initiative was born and why we believe you can be part of it.&lt;/p&gt;
+
+&lt;p&gt;Our adventure began with enthusiasm for quantum computing and the ambition to share this passion with the world. Qiskit, IBM’s famous framework for quantum computing, inspired us to create something extraordinary, something that would bring students and enthusiasts around the world closer to this revolutionary technology.&lt;/p&gt;
+
+&lt;p&gt;Our motivations are simple but powerful:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt;: We want to break down barriers to access to quantum computing. No matter who you are or where you come from; at Qiskit for Fest, you will have the opportunity to immerse yourself in this fascinating and rapidly growing field.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Inspiration&lt;/strong&gt;: We believe that the key to unlocking the potential of quantum computing is inspiration. We want participants to be inspired by the innovations and opportunities that quantum computing offers to meet the challenges of the future.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Community&lt;/strong&gt;: Our initiative aims to create a global community of curious and passionate minds who collaborate and learn together. We want to build bridges between students, researchers and professionals to share knowledge and stimulate growth.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Why should you join us as an organizer or participant?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;As an Organizer&lt;/strong&gt;: If you have a passion for quantum computing, science outreach or event organization, join us to help create an extraordinary event. You will have the opportunity to hone your leadership skills, work with a talented team and make a difference in quantum education.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;As a Participant&lt;/strong&gt;: If you are a student or technology enthusiast, attending Qiskit for Fest is a unique opportunity to learn from the brightest minds in quantum computing, connect with experts and build a solid foundation for your future. It will be an experience that will inspire you and help you grow personally and professionally.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In summary, Qiskit for Fest is more than an event; it is an experience with the goal of changing your perspective on quantum computing and the possibilities it offers. Join us on this adventure, be part of something extraordinary and help shape the future of technology.&lt;/p&gt;
+
+&lt;p&gt;We look forward to seeing you in our team of organizers or as a participant. Together, we can make quantum computation accessible to everyone.&lt;/p&gt;
+
+&lt;p&gt;Test your curiosity. Get involved. Join us in Qiskit for Fest.&lt;/p&gt;
+
+&lt;p&gt;Enthusiastically,
+the organizers&lt;/p&gt;
+
+&lt;/div&gt;
+
+            
+
+            
+            
+            
+
+            
+
+
+            &lt;h1 class=&quot;lang-it hidden&quot;&gt;Why to partecipate&lt;/h1&gt;
+            &lt;div class=&quot;lang-it hidden&quot;&gt;
+&lt;p&gt;Caro lettore,&lt;/p&gt;
+
+&lt;p&gt;Tutto è iniziato con una semplice idea e una passione condivisa: portare l’innovazione e la magia della computazione quantistica più vicino a tutti. Siamo un gruppo di studenti entusiasti che si sono uniti per creare un’esperienza unica per gli amanti della scienza e della tecnologia, e oggi vogliamo condividere con te la nostra storia di come è nata l’iniziativa “Qiskit for Fest” e perché crediamo che tu possa farne parte.&lt;/p&gt;
+
+&lt;p&gt;La nostra avventura è iniziata con l’entusiasmo per la computazione quantistica e l’ambizione di condividere questa passione con il mondo. Qiskit, il famoso framework di IBM per la computazione quantistica, ci ha ispirato a creare qualcosa di straordinario, qualcosa che avvicinasse gli studenti e gli appassionati di tutto il mondo a questa tecnologia rivoluzionaria.&lt;/p&gt;
+
+&lt;p&gt;Le nostre motivazioni sono semplici ma potenti:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Accessibilità&lt;/strong&gt;: Vogliamo abbattere le barriere all’accesso alla computazione quantistica. Non importa chi sei o da dove vieni; a Qiskit for Fest, avrai l’opportunità di immergerti in questo campo affascinante e in rapida crescita.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Ispirazione&lt;/strong&gt;: Crediamo che la chiave per sbloccare il potenziale della computazione quantistica sia l’ispirazione. Vogliamo che i partecipanti siano ispirati dalle innovazioni e dalle opportunità che la computazione quantistica offre per affrontare le sfide del futuro.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Comunità&lt;/strong&gt;: La nostra iniziativa mira a creare una comunità globale di menti curiose e appassionate che collaborano e imparano insieme. Vogliamo costruire ponti tra studenti, ricercatori e professionisti per condividere conoscenze e stimolare la crescita.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Perché dovresti unirti a noi come organizzatore o partecipante?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Come Organizzatore&lt;/strong&gt;: Se hai una passione per la computazione quantistica, la divulgazione scientifica o l’organizzazione di eventi, unisciti a noi per contribuire a creare un evento straordinario. Avrai l’opportunità di affinare le tue competenze di leadership, lavorare con una squadra talentuosa e fare la differenza nell’educazione quantistica.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Come Partecipante&lt;/strong&gt;: Se sei uno studente o un appassionato di tecnologia, partecipare a Qiskit for Fest è un’opportunità unica per imparare dalle menti più brillanti nel campo della computazione quantistica, connetterti con esperti e costruire una base solida per il tuo futuro. Sarà un’esperienza che ti ispirerà e ti aiuterà a crescere personalmente e professionalmente.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In sintesi, Qiskit for Fest è più di un evento; è un’esperienza con l’obiettivo di cambiare la tua prospettiva sulla computazione quantistica e sulle possibilità che offre. Unisciti a noi in questa avventura, fai parte di qualcosa di straordinario e contribuisci a plasmare il futuro della tecnologia.&lt;/p&gt;
+
+&lt;p&gt;Ti aspettiamo con entusiasmo nel nostro team di organizzatori o come partecipante. Insieme, possiamo rendere la computazione quantistica accessibile a tutti.&lt;/p&gt;
+
+&lt;p&gt;Metti alla prova la tua curiosità. Fatti coinvolgere. Unisciti a noi in Qiskit for Fest.&lt;/p&gt;
+
+&lt;p&gt;Con entusiasmo,
+gli organizzatori&lt;/p&gt;
+
+&lt;/div&gt;
+
+            
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+    // Function to show English text and hide Italian text
+    function showEnglish() {
+
+        //remove class hidden from each element with class &quot;lang-en&quot;
+        document.querySelectorAll(&quot;.lang-en&quot;).forEach(function (element) {
+            element.classList.remove(&apos;hidden&apos;);
+        });
+
+        document.querySelectorAll(&quot;.lang-it&quot;).forEach(function (element) {
+            element.classList.add(&quot;hidden&quot;);
+        });
+    }
+
+    // Function to show Italian text and hide English text
+    function showItalian() {
+        //remove class hidden from italian
+        document.querySelectorAll(&quot;.lang-it&quot;).forEach(function (element) {
+            element.classList.remove(&apos;hidden&apos;);
+        });
+
+        document.querySelectorAll(&quot;.lang-en&quot;).forEach(function (element) {
+            element.classList.add(&quot;hidden&quot;);
+        });
+    }
+
+    // Initialize with English text displayed
+    showEnglish();
+
+    // Event listeners for language buttons
+    document.getElementById(&quot;englishBtn&quot;).addEventListener(&quot;click&quot;, showEnglish);
+    document.getElementById(&quot;italianBtn&quot;).addEventListener(&quot;click&quot;, showItalian);
+&lt;/script&gt;
+
+</description>
+        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/28/Why-to-partecipate.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/28/Why-to-partecipate.html</guid>
+        
+        <category>QFF23</category>
+        
+        
+        <category>QFF23</category>
+        
+      </item>
+    
+      <item>
+        <title>Why To Partecipate.it</title>
+        <description>&lt;p&gt;Caro lettore,&lt;/p&gt;
+
+&lt;p&gt;Tutto è iniziato con una semplice idea e una passione condivisa: portare l’innovazione e la magia della computazione quantistica più vicino a tutti. Siamo un gruppo di studenti entusiasti che si sono uniti per creare un’esperienza unica per gli amanti della scienza e della tecnologia, e oggi vogliamo condividere con te la nostra storia di come è nata l’iniziativa “Qiskit for Fest” e perché crediamo che tu possa farne parte.&lt;/p&gt;
+
+&lt;p&gt;La nostra avventura è iniziata con l’entusiasmo per la computazione quantistica e l’ambizione di condividere questa passione con il mondo. Qiskit, il famoso framework di IBM per la computazione quantistica, ci ha ispirato a creare qualcosa di straordinario, qualcosa che avvicinasse gli studenti e gli appassionati di tutto il mondo a questa tecnologia rivoluzionaria.&lt;/p&gt;
+
+&lt;p&gt;Le nostre motivazioni sono semplici ma potenti:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Accessibilità&lt;/strong&gt;: Vogliamo abbattere le barriere all’accesso alla computazione quantistica. Non importa chi sei o da dove vieni; a Qiskit for Fest, avrai l’opportunità di immergerti in questo campo affascinante e in rapida crescita.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Ispirazione&lt;/strong&gt;: Crediamo che la chiave per sbloccare il potenziale della computazione quantistica sia l’ispirazione. Vogliamo che i partecipanti siano ispirati dalle innovazioni e dalle opportunità che la computazione quantistica offre per affrontare le sfide del futuro.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Comunità&lt;/strong&gt;: La nostra iniziativa mira a creare una comunità globale di menti curiose e appassionate che collaborano e imparano insieme. Vogliamo costruire ponti tra studenti, ricercatori e professionisti per condividere conoscenze e stimolare la crescita.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Perché dovresti unirti a noi come organizzatore o partecipante?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Come Organizzatore&lt;/strong&gt;: Se hai una passione per la computazione quantistica, la divulgazione scientifica o l’organizzazione di eventi, unisciti a noi per contribuire a creare un evento straordinario. Avrai l’opportunità di affinare le tue competenze di leadership, lavorare con una squadra talentuosa e fare la differenza nell’educazione quantistica.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Come Partecipante&lt;/strong&gt;: Se sei uno studente o un appassionato di tecnologia, partecipare a Qiskit for Fest è un’opportunità unica per imparare dalle menti più brillanti nel campo della computazione quantistica, connetterti con esperti e costruire una base solida per il tuo futuro. Sarà un’esperienza che ti ispirerà e ti aiuterà a crescere personalmente e professionalmente.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In sintesi, Qiskit for Fest è più di un evento; è un’esperienza con l’obiettivo di cambiare la tua prospettiva sulla computazione quantistica e sulle possibilità che offre. Unisciti a noi in questa avventura, fai parte di qualcosa di straordinario e contribuisci a plasmare il futuro della tecnologia.&lt;/p&gt;
+
+&lt;p&gt;Ti aspettiamo con entusiasmo nel nostro team di organizzatori o come partecipante. Insieme, possiamo rendere la computazione quantistica accessibile a tutti.&lt;/p&gt;
+
+&lt;p&gt;Metti alla prova la tua curiosità. Fatti coinvolgere. Unisciti a noi in Qiskit for Fest.&lt;/p&gt;
+
+&lt;p&gt;Con entusiasmo,
+gli organizzatori&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/2023/09/28/Why-to-partecipate.it.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/2023/09/28/Why-to-partecipate.it.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Why To Partecipate.en</title>
+        <description>&lt;p&gt;Dear reader,&lt;/p&gt;
+
+&lt;p&gt;It all started with a simple idea and a shared passion: bringing the innovation and magic of quantum computing closer to everyone. We are a group of enthusiastic students who have come together to create a unique experience for science and technology lovers, and today we want to share with you our story of how the “Qiskit for Fest” initiative was born and why we believe you can be part of it.&lt;/p&gt;
+
+&lt;p&gt;Our adventure began with enthusiasm for quantum computing and the ambition to share this passion with the world. Qiskit, IBM’s famous framework for quantum computing, inspired us to create something extraordinary, something that would bring students and enthusiasts around the world closer to this revolutionary technology.&lt;/p&gt;
+
+&lt;p&gt;Our motivations are simple but powerful:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt;: We want to break down barriers to access to quantum computing. No matter who you are or where you come from; at Qiskit for Fest, you will have the opportunity to immerse yourself in this fascinating and rapidly growing field.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Inspiration&lt;/strong&gt;: We believe that the key to unlocking the potential of quantum computing is inspiration. We want participants to be inspired by the innovations and opportunities that quantum computing offers to meet the challenges of the future.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Community&lt;/strong&gt;: Our initiative aims to create a global community of curious and passionate minds who collaborate and learn together. We want to build bridges between students, researchers and professionals to share knowledge and stimulate growth.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Why should you join us as an organizer or participant?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;As an Organizer&lt;/strong&gt;: If you have a passion for quantum computing, science outreach or event organization, join us to help create an extraordinary event. You will have the opportunity to hone your leadership skills, work with a talented team and make a difference in quantum education.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;As a Participant&lt;/strong&gt;: If you are a student or technology enthusiast, attending Qiskit for Fest is a unique opportunity to learn from the brightest minds in quantum computing, connect with experts and build a solid foundation for your future. It will be an experience that will inspire you and help you grow personally and professionally.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In summary, Qiskit for Fest is more than an event; it is an experience with the goal of changing your perspective on quantum computing and the possibilities it offers. Join us on this adventure, be part of something extraordinary and help shape the future of technology.&lt;/p&gt;
+
+&lt;p&gt;We look forward to seeing you in our team of organizers or as a participant. Together, we can make quantum computation accessible to everyone.&lt;/p&gt;
+
+&lt;p&gt;Test your curiosity. Get involved. Join us in Qiskit for Fest.&lt;/p&gt;
+
+&lt;p&gt;Enthusiastically,
+the organizers&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/2023/09/28/Why-to-partecipate.en.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/2023/09/28/Why-to-partecipate.en.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>First steps with Qiskit</title>
+        <description>&lt;p&gt;Prepare for the Fall Fest by reviewing the documentation and installing Qiskit.&lt;/p&gt;
+
+&lt;p&gt;https://qiskit.org/documentation/getting_started.html#installation&lt;/p&gt;
+
+&lt;blockquote&gt;
+    &lt;p&gt;“Nature isn’t classical, dammit, and if you want to make a simulation of nature, you’d better make it quantum mechanical, and by golly it’s a wonderful problem, because it doesn’t look so easy.”&lt;/p&gt;
+    &lt;footer&gt;Richard Feynman&lt;/footer&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/11/Qiskit.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/11/Qiskit.html</guid>
+        
+        <category>QFF23</category>
+        
+        
+        <category>QFF23</category>
+        
+      </item>
+    
+      <item>
+        <title>Sign Up for Quantum Explorers!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://medium.com/qiskit/sign-up-for-qiskit-quantum-explorers-78844c0f9d00&quot;&gt;&lt;/a&gt;
+&lt;a href=&quot;https://challenges.quantum-computing.ibm.com/quantum-explorers-23&quot;&gt;Quantum Explorers&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/10/Quantum-Explorers.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/10/Quantum-Explorers.html</guid>
+        
+        <category>QFF23</category>
+        
+        
+        <category>QFF23</category>
+        
+      </item>
+    
+      <item>
+        <title>Introducing the Qiskit Fall Fest</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/qff23/logos/Logo_wo_qiskit.png&quot; alt=&quot;Logo_wo_qiskit.png&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote cite=&quot;https://qiskit.org/events/fall-fest/&quot;&gt;
+The Qiskit Fall Fest is a collection of quantum computing events &lt;i&gt;on college campuses&lt;/i&gt; around the world.
+
+Every Fall Fest event is &lt;i&gt;organized and run by the students&lt;/i&gt; on each campus, with support from IBM Quantum. Student leaders work alongside IBM to design and plan their event, which are run in October and November. Each event is standalone - only made for the students on that particular campus.
+
+&lt;footer&gt;&lt;a href=&quot;https://qiskit.org/events/fall-fest/&quot; target=&quot;_blank&quot;&gt;Qiskit Fall Fest&lt;/a&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The events vary from technical hackathons, workshops, meetups to beginner-friendly challenges, all with the goal of helping to grow the local community’s skill set.&lt;/p&gt;
+
+&lt;p&gt;The Qiskit Fall Fest is a celebration of quantum technology, research, and collaboration, bringing together quantum enthusiasts, researchers, students, and professionals from around the world. Whether you’re a quantum expert or just starting your journey into the quantum realm, this event is designed for you.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Introducing the Qiskit Fall Fest, &lt;em&gt;Brian Ingmanson&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Medium](https://medium.com/qiskit/introducing-the-qiskit-fall-fest-feb8456b557)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qiskit.org/events/fall-fest/&quot;&gt;Qiskit Fall Fest website&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/10/Introducing-the-Qiskit-Fall-Fest.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/10/Introducing-the-Qiskit-Fall-Fest.html</guid>
+        
+        <category>QFF23</category>
+        
+        
+        <category>QFF23</category>
+        
+      </item>
+    
+      <item>
+        <title>Announcing the Qiskit Fall Fest 2023 in Palermo</title>
+        <description>&lt;p&gt;We are thrilled to invite you to the Qiskit Fall Fest 2023 partner event in Palermo, Italy!&lt;/p&gt;
+
+&lt;p&gt;The Qiskit Fall Fest is a celebration of quantum technology, research, and collaboration, bringing together quantum enthusiasts, researchers, students, and professionals from around the world. Whether you’re a quantum expert or just starting your journey into the quantum realm, this event is designed for you.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; November 2023&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;em&gt;Università Degli Studi di Palermo&lt;/em&gt;, Italy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Event Highlights:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Cutting-Edge Quantum Talks:&lt;/strong&gt; Join renowned experts in the field of quantum computing for captivating keynote speeches, panel discussions, and technical presentations. Explore the latest advancements in quantum hardware, software, and applications.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Hands-On Workshops:&lt;/strong&gt; Dive deep into quantum programming with hands-on workshops led by Qiskit experts. Learn how to harness the power of quantum computing using the Qiskit framework.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Hackathon Challenge:&lt;/strong&gt; Put your quantum skills to the test in our Qiskit Hackathon. Form teams, tackle real-world quantum problems, and compete for exciting prizes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Networking Opportunities:&lt;/strong&gt; Connect with fellow quantum enthusiasts, researchers, and professionals. Share ideas, collaborate on projects, and expand your quantum network.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Quantum Expo:&lt;/strong&gt; Explore the Quantum Expo, where leading companies and organizations showcase their quantum-related products, services, and initiatives.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Cultural Excursions:&lt;/strong&gt; Immerse yourself in the rich culture of Palermo during guided cultural excursions and explore the city’s historical landmarks.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Why Attend?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gain valuable insights into the future of quantum computing.&lt;/li&gt;
+  &lt;li&gt;Learn from the best in the quantum industry.&lt;/li&gt;
+  &lt;li&gt;Connect with like-minded individuals and expand your quantum network.&lt;/li&gt;
+  &lt;li&gt;Participate in the quantum hackathon and sharpen your skills.&lt;/li&gt;
+  &lt;li&gt;Discover the enchanting city of Palermo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Don’t miss this opportunity to be part of the quantum revolution at Qiskit Fall Fest 2023. Whether you’re a quantum enthusiast, researcher, student, or industry professional, there’s something for everyone.&lt;/p&gt;
+
+&lt;p&gt;Mark your calendars for November 10-12, 2023, and join us in Palermo, Italy, for an unforgettable quantum experience!&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for registration details, speaker announcements, and more exciting updates on our official website. Follow us on social media for the latest news and discussions using #QiskitFallFest2023.&lt;/p&gt;
+
+&lt;p&gt;We look forward to welcoming you to Palermo for a quantum celebration like no other!&lt;/p&gt;
+
+&lt;p&gt;For inquiries and sponsorship opportunities, please &lt;a href=&quot;/contact/&quot;&gt;contact us&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Save the date and prepare to embrace the quantum future at Qiskit Fall Fest 2023!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/palermo/2023/09/10/Announcing-the-Qiskit-Fall-Fest-2023-in-Palermo.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/palermo/2023/09/10/Announcing-the-Qiskit-Fall-Fest-2023-in-Palermo.html</guid>
+        
+        <category>Palermo</category>
+        
+        
+        <category>Palermo</category>
+        
+      </item>
     
   </channel>
 </rss>

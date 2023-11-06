@@ -78,8 +78,8 @@
 <!-- # FIXME: compare this snippet from _includes/navigation.html and try to merge them in a single file using some if/else statement-->
 
 <!-- Navigation -->
-
-<nav id="navbarHome" class="navbar navbar-default navbar-fixed-top theme-1">
+    
+    <nav id="navbarHome" class="navbar navbar-default navbar-fixed-top theme-1">
     
 
         <div class="container">
@@ -132,17 +132,52 @@
                     
 
                     
+                    <!--<a href="#posts" >News</a>-->
+
+                    
+                    <li>
+                        <a class="page-scroll"
+                            href="#posts">News</a>
+                    </li>
+                    
+
+                    
                     <!--<a href="#event" >The event</a>-->
 
                     
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                             aria-expanded="false">The event <span class="caret"></span></a>
-                        <ul class="dropdown-menu dropdown-menu-custom dropdown-menu-custom-shrink" role="menu">
+                        <ul class="dropdown-menu dropdown-menu-custom " role="menu">
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#speakers">Speakers</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#agenda">Agenda</a>
+                            </li>
                             
                             <li>
                                 <a class="page-scroll"
                                     href="#organizers">Organizers</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#sponsors">Sponsors</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="venue/">Venue</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="faq/">FAQ</a>
                             </li>
                             
                         </ul>
@@ -178,9 +213,10 @@
 <header class="full-jumbo theme-1">
 <div class="container">
     <div class="intro-text">
-        <div class="intro-lead-in logotype">We are arriving!</div>
+        <div class="intro-lead-in logotype">The Quantum Era is arriving.</div>
         <div class="intro-heading logotype">ARE YOU READY?</div>
         <a href="#about" class="page-scroll btn btn-xl">Tell me more!</a>
+        <a class="btn btn-xl" href="/registration/">Register</a>
     </div>
     <!-- I decided to add this file instead of edit the layout -->
 
@@ -230,7 +266,12 @@
   }
 </style>
 <div class="marquee">
-  <p>• We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving! • We are arriving!</p>
+  <p>• Registration is now open • Registration is now open • Registration is now open • Registration is now open • Registration is now open •
+    Registration is now open • Registration is now open • Registration is now open • Registration is now open • Registration is now open •
+    Registration is now open • Registration is now open • Registration is now open • Registration is now open • Registration is now open •
+    Registration is now open • Registration is now open • Registration is now open • Registration is now open • Registration is now open •
+    Registration is now open • Registration is now open • Registration is now open • Registration is now open • Registration is now open •
+    Registration is now open • Registration is now open • Registration is now open • Registration is now open • Registration is now open </p>
 </div>
 
 <script>
@@ -247,6 +288,14 @@
 
 <main>
     <!-- About Section -->
+<style>
+    /* Timeline image */
+    .timeline-image {
+        max-width: 100px;
+        border-radius: 50%;
+    }
+</style>
+
 <section id="about">
     <div class="container">
         <div class="row">
@@ -261,7 +310,7 @@
                 
 
                 
-<p><b> Welcome to Qiskit Fall Fest 2023 @ Palermo!</b></p>
+<p><b> Welcome to the Qiskit Fall Fest 2023 @ Palermo!</b></p>
 
 <p>We are thrilled to invite you to the most exciting global event about the quantum computing promoted by <a href="https://www.ibm.com/quantum" target="_blank">IBM Quantum</a> and the 
 <a href="https://qiskit.org" target="_blank">Qiskit community</a>: the <a href="https://qiskit.org/events/fall-fest" target="_blank">Qiskit Fall Fest</a>!</p>
@@ -279,28 +328,90 @@
 
 
 
-                <br> <!-- add some space in better way-->
             </div>
         </div>
         <div class="row">
             
+            <div class="col-md-3 col-sm-6">
+                <!-- height: 250px is a dirty fix. The issue is the grid is not aligned correctly
+                    in sm size. In fact the second row goes directly to the right part of the grid
+                    because the first element of the first row is bigger than the second element of the first row.
+                    This is caused by the fact that we're using Bootstrap 3 which is not using flexbox.
+                    To correctly fix this, we should upgrade to Bootstrap version >= 4.0.0
+                -->
+                <div class="team-member" style="height: 250px">
+                    <a href="/readmore/">
+                        <img src="assets/img/about/info.png" class="img-responsive img-circle timeline-image"
+                            style="max-width: 100px;" alt="">
+                    </a>
+                    <h4>What is Qiskit?</h4>
+                    <p class="text-muted">An open-source python framework for quantum programming</p>
+                    <p><a href="/readmore/" class="btn-about">Learn more!</a></p>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- height: 250px is a dirty fix. The issue is the grid is not aligned correctly
+                    in sm size. In fact the second row goes directly to the right part of the grid
+                    because the first element of the first row is bigger than the second element of the first row.
+                    This is caused by the fact that we're using Bootstrap 3 which is not using flexbox.
+                    To correctly fix this, we should upgrade to Bootstrap version >= 4.0.0
+                -->
+                <div class="team-member" style="height: 250px">
+                    <a href="/#agenda">
+                        <img src="assets/img/about/agenda.png" class="img-responsive img-circle timeline-image"
+                            style="max-width: 100px;" alt="">
+                    </a>
+                    <h4>Agenda</h4>
+                    <p class="text-muted">Check out the agenda for the event</p>
+                    <p><a href="/#agenda" class="btn-about">View the agenda</a></p>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- height: 250px is a dirty fix. The issue is the grid is not aligned correctly
+                    in sm size. In fact the second row goes directly to the right part of the grid
+                    because the first element of the first row is bigger than the second element of the first row.
+                    This is caused by the fact that we're using Bootstrap 3 which is not using flexbox.
+                    To correctly fix this, we should upgrade to Bootstrap version >= 4.0.0
+                -->
+                <div class="team-member" style="height: 250px">
+                    <a href="/venue/">
+                        <img src="assets/img/about/venue.png" class="img-responsive img-circle timeline-image"
+                            style="max-width: 100px;" alt="">
+                    </a>
+                    <h4>Venue</h4>
+                    <p class="text-muted">Learn more about our event location in detail</p>
+                    <p><a href="/venue/" class="btn-about">View the location</a></p>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- height: 250px is a dirty fix. The issue is the grid is not aligned correctly
+                    in sm size. In fact the second row goes directly to the right part of the grid
+                    because the first element of the first row is bigger than the second element of the first row.
+                    This is caused by the fact that we're using Bootstrap 3 which is not using flexbox.
+                    To correctly fix this, we should upgrade to Bootstrap version >= 4.0.0
+                -->
+                <div class="team-member" style="height: 250px">
+                    <a href="/faq/">
+                        <img src="assets/img/about/faqs.png" class="img-responsive img-circle timeline-image"
+                            style="max-width: 100px;" alt="">
+                    </a>
+                    <h4>FAQ</h4>
+                    <p class="text-muted">Have some question? Maybe we have already answer it!</p>
+                    <p><a href="/faq/" class="btn-about">FAQ</a></p>
+                </div>
+            </div>
+            
         </div>
         <!-- registration -->
-        <!--
         <div style="text-align: center; padding: 10px 25px;"><a class="btn btn-xl" href="/registration/">Register for the event here to participate!</a></div>
-        -->
 
 
     </div>
 </section>
 
-<style>
-    /* Timeline image */
-    .timeline-image {
-        max-width: 100px;
-        border-radius: 50%;
-    }
-</style>
     <!-- Partners section -->
 <section id="partners">
     <div class="container">
@@ -331,6 +442,296 @@
                     </div>
                 </div>
                 
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Posts section -->
+<style>
+  .truncate-text {
+    /*truncating long words with a hyphen and continuing them on a new line */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+</style>
+
+
+<section id="posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">News</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+      <div class="row">
+        
+        
+
+        <div class="col-md-3 col-sm-6">
+          <span class="post-date">Sep 28, 2023</span>
+          <a class="post-link" href="/blog/qff23/2023/09/28/QFF23-challenges.html">QFF23 challenges</a>
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px;">           
+            Jupiter notebooks which are python-based coding notebooks and inside of those notebooks there’s some tutorial content that teaches people about some new thing and Quantum Computing and then there are code challenges built into it where people have...
+          </div>
+          
+          <p><a href="/blog/qff23/2023/09/28/QFF23-challenges.html">(more...)</a></p>
+          
+        </div>
+        
+
+        <div class="col-md-3 col-sm-6">
+          <span class="post-date">Sep 28, 2023</span>
+          <a class="post-link" href="/blog/qff23/2023/09/28/Why-to-partecipate.html">Why to partecipate</a>
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px;">           
+            Dear reader, It all started with a simple idea and a shared passion: bringing the innovation and magic of quantum computing closer to everyone. We are a group of enthusiastic students who have come together to create a unique experience for scienc...
+          </div>
+          
+          <p><a href="/blog/qff23/2023/09/28/Why-to-partecipate.html">(more...)</a></p>
+          
+        </div>
+        
+
+        <div class="col-md-3 col-sm-6">
+          <span class="post-date">Sep 11, 2023</span>
+          <a class="post-link" href="/blog/qff23/2023/09/11/Qiskit.html">First steps with Qiskit</a>
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px;">           
+            Prepare for the Fall Fest by reviewing the documentation and installing Qiskit.
+          </div>
+          
+        </div>
+        
+
+        <div class="col-md-3 col-sm-6">
+          <span class="post-date">Sep 10, 2023</span>
+          <a class="post-link" href="/blog/qff23/2023/09/10/Quantum-Explorers.html">Sign Up for Quantum Explorers!</a>
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px;">           
+            Quantum Explorers
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="col-lg-12 text-center">
+        <a href=" /blog/" class="btn btn-xl">More News</a>
+        <p class="rss-subscribe">Subscribe <a href=" /feed.xml">via RSS</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- Speakers -->
+<section id="speakers" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Speakers</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="team-member">
+                    <img src="assets/img/speakers/user_default.png" class="img-responsive img-circle" alt="">
+                    <h4>John Doe</h4>
+                    <p class="text-muted">Professor @ University</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.unipa.it/persone/docenti/p/john.doe/" target="_blank">
+                                <i class="fa fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://it.linkedin.com/in/john-doe" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.researchgate.net/profile/john-doe" target="_blank">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="team-member">
+                    <img src="assets/img/speakers/user_default.png" class="img-responsive img-circle" alt="">
+                    <h4>Mark Smith</h4>
+                    <p class="text-muted">Professor @ University</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.unipa.it/persone/docenti/p/mark.smith/" target="_blank">
+                                <i class="fa fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://it.linkedin.com/in/mark-smith" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.researchgate.net/profile/mark-smith" target="_blank">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="large text-muted"></p>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Agenda section -->
+<section id="agenda">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Agenda</h2>
+                <h3 class="section-subheading text-muted"></h3>
+                
+
+                <style>
+                    #agenda-table th {
+                        text-align: center;
+                    }
+
+                    #agenda-table td {
+                        text-align: left;
+                    }
+
+                    #agenda-table caption {
+                        caption-side: bottom;
+                    }
+
+                    #agenda-table th,
+                    #agenda-table td {
+                        border: 2px solid #2d7dc7;
+                    }
+
+                    #agenda-table .event-title {
+                        font-size: large;
+                    }
+
+                    #agenda-table .day-title {
+                        font-size: large;
+                        background-color: #e8f4f8;
+                        color: #333;
+                    }
+                </style>
+
+                
+                <table id="agenda-table" class="table table-bordered">
+                    <caption>
+                        CET (UTC+1)
+                    </caption>
+                    <thead>
+                        <tr>
+                            
+                            <th class="col-xs-4 day-title">2023-11-13</th>
+                            
+                            <th class="col-xs-4 day-title">2023-11-15</th>
+                            
+                            <th class="col-xs-4 day-title">2023-11-17</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        
+                        
+                        
+                        <tr>
+                            
+                            
+                            <td class="col-xs-4">
+                                15:00-15:30<br />
+                                <b class="event-title">Opening ceremony</b><br /><i>A. Miserendino</i>
+                            </td>
+                            
+                            
+                            
+                            <td class="col-xs-4">
+                                15:00-16:00<br />
+                                <b class="event-title">session 3</b><br /><i>Luca Rossi</i>
+                            </td>
+                            
+                            
+                            
+                            <td class="col-xs-4">
+                                15:00-16:00<br />
+                                <b class="event-title">session 5</b><br /><i>Luca Rossi</i>
+                            </td>
+                            
+                            
+                        </tr>
+                        
+                        
+                        <tr>
+                            
+                            
+                            <td class="col-xs-4">
+                                15:30-16:30<br />
+                                <b class="event-title">session 1</b><br /><i>Mario Rossi</i>
+                            </td>
+                            
+                            
+                            
+                            <td class="col-xs-4">
+                                16:00-17:00<br />
+                                <b class="event-title">session 4</b><br /><i>Fabio Rossi</i>
+                            </td>
+                            
+                            
+                            
+                            <td class="col-xs-4">
+                                16:00-17:00<br />
+                                <b class="event-title">session 6</b><br /><i>Fabio Rossi</i>
+                            </td>
+                            
+                            
+                        </tr>
+                        
+                        
+                        <tr>
+                            
+                            
+                            <td class="col-xs-4">
+                                16:30-17:30<br />
+                                <b class="event-title">session 2</b><br /><i>Ernesto Rossi</i>
+                            </td>
+                            
+                            
+                            
+                            <td></td>
+                            
+                            
+                            
+                            <td></td>
+                            
+                            
+                        </tr>
+                        
+                        
+                    </tbody>
+                </table>
+
+
+
             </div>
         </div>
     </div>
@@ -497,9 +898,47 @@
             
         </div>
         
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="large text-muted">
+                    <a href="/contacts/" class="btn btn-xl">Contact us</a>
+                </p>
+            </div>
+        </div>
     </div>
 </section>
 
+    <!-- Sponsors -->
+<section id="sponsors">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Sponsors</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-6">
+                <a href="http://www.unipa.it/" target="_blank">
+                    <img src="assets/img/logos/unipa_logotipo-orizzontale-a-colori.png" class="img-responsive img-centered" alt="unipa_logotipo-orizzontale-a-colori.png"  style="max-height: 100px;">
+                </a>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <a href="https://www.unipa.it/dipartimenti/difc" target="_blank">
+                    <img src="assets/img/logos/unipa_dfc.jpg" class="img-responsive img-centered" alt="unipa_dfc.jpg"  style="max-height: 100px;">
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!--contacts.html-->
 </main>
   <footer>
     <div class="container">
@@ -517,7 +956,16 @@
             <div class="col-md-12">
                 <ul class="list-inline quicklinks">
                     <li>
-                        <!-- Privacy policy - iubenda -->
+                        <a href="/contacts/">Contacts</a>
+                    </li>
+                    <li>
+                        | <a href="/credits/">Credits</a>
+                    </li>
+                    <li>
+                        | <a href="/tos/">Terms and Conditions</a>
+                    </li>
+                    <li>
+                        | <!-- Privacy policy - iubenda -->
                         <a href="https://www.iubenda.com/privacy-policy/60725282" title="Privacy Policy">Privacy Policy</a>
                         <!-- END Privacy policy - iubenda -->
                     </li>

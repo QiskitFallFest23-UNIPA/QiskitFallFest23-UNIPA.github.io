@@ -11,11 +11,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>404</title>
+    <title>Contacts</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Discover Quantum Computing">
-    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//404.html">
+    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//contacts/">
 
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -202,29 +202,39 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="page-heading">404</h2>
+                        <h2 class="page-heading">Contacts</h2>
                         <h3 class="page-subheading text-muted"></h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12" style="text-align: justify;">
                         <style>
-.cropped {
-    /*ref: https://www.educative.io/answers/how-to-crop-an-image-in-css*/
-    /*border: 5px solid black;*/
-    object-fit: cover;    
-    max-height: 509px; /*#FIXME dimensions*/
-    width: 491px; /*#FIXME dimensions*/
-    height: 265px;/*#FIXME dimensions*/
-}
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* Adjust as needed to center vertically in the viewport */
+        background-color: #e8f4f8;
+    }
 
-
+    /* Media query for screens with a maximum width of 768px (adjust as needed) */
+    @media (max-width: 768px) {
+        .form-container iframe {
+            max-width: 90%;
+            max-height: 80vh;
+        }
+    }
 </style>
 
-<div style="text-align: center;">
-    <b>not found</b>
-    <img src="/assets/img/404_cat1.png" alt="404" class="cropped"/>
-    <!--<img src="/assets/img/404_cat2.png" alt="404" class="cropped" />-->
+<p>The processing of personal data is carried out in accordance with the privacy policy pursuant to the General Data
+    Protection Regulation (GDPR) of the European Union and art. 13 Legislative Decree 196/2003.</p>
+
+<div class="form-container">
+    <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScCEK05HvaOzObPeT5JpEtXuujt_WX7z6vNhoW_7lDfnsMG9g/viewform?embedded=true"
+        width="700" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
                     </div>
                 </div>

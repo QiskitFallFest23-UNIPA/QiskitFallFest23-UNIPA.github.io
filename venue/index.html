@@ -11,11 +11,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>404</title>
+    <title>Venue informations</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Discover Quantum Computing">
-    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//404.html">
+    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//venue/">
 
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -202,30 +202,64 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="page-heading">404</h2>
+                        <h2 class="page-heading">Venue informations</h2>
                         <h3 class="page-subheading text-muted"></h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12" style="text-align: justify;">
                         <style>
-.cropped {
-    /*ref: https://www.educative.io/answers/how-to-crop-an-image-in-css*/
-    /*border: 5px solid black;*/
-    object-fit: cover;    
-    max-height: 509px; /*#FIXME dimensions*/
-    width: 491px; /*#FIXME dimensions*/
-    height: 265px;/*#FIXME dimensions*/
-}
+  /* Style the container */
+  .venue-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1000px; /* Increase the max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
 
+  /* Style the label */
+  .venue-label {
+    background-color: #387cc4; /* Choose your desired color */
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
+  /* Style the map widget */
+  .venue-map {
+    text-align: left; /* Align the map widget to the left */
+    width: 90%; /* Increase the width as needed */
+    height: 600px; /* Increase the height as needed */
+    margin-bottom: 20px;
+  }
+
+  /* Style the text in between */
+  .venue-text {
+    font-size: 16px;
+    text-align: center; /* Align the text to the center */
+    margin-bottom: 20px;
+  }
 </style>
 
-<div style="text-align: center;">
-    <b>not found</b>
-    <img src="/assets/img/404_cat1.png" alt="404" class="cropped"/>
-    <!--<img src="/assets/img/404_cat2.png" alt="404" class="cropped" />-->
+<div class="venue-container">
+  <div class="venue-label">Venue Information</div>
+
+  <p class="venue-text">
+    Date: - October 2023<br />
+    Address: Viale delle Scienze, Edificio 18 - Università di Palermo
+  </p>
+
+  <div class="venue-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12620.683896112222!2d13.341192!3d38.0986471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319ef9d878ca84f%3A0x5d65ba4fbaa2cc82!2sUniversit%C3%A0%20di%20Palermo%20-%20Edificio%2018!5e0!3m2!1sen!2sus!4v1632212339427!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
 </div>
+
                     </div>
                 </div>
             </div>
