@@ -200,25 +200,60 @@
     }
 
     .micio {
-        width: 25%;
-        max-width: 400px;
+        width: 100%;
+        /*max-width: 480px;*/
         height: auto;
         position: absolute;
         bottom: 0;
         left: 0;
     }
+
+    @media (max-width: 486px) {
+        .micio {
+            width: 70%; /*?*/
+            max-width: 250px;
+        }
+    }
+
+    @media (min-width: 400px) and (max-width: 768px) {
+        .micio {
+            width: 50%;
+            max-width: 300px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .micio {
+            width: 70%;/*?*/
+            max-width: 300px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .micio {
+            width: 50%;
+            max-width: 250px;
+        }
+    }
+
+    @media (min-width: 940px) {
+        .micio {
+            width: 50%;
+            max-width: 328px;
+        }
+    }
 </style>
 
 
 <header class="full-jumbo theme-1">
-<div class="container">
-    <div class="intro-text">
-        <div class="intro-lead-in logotype">The Quantum Era is arriving.</div>
-        <div class="intro-heading logotype">ARE YOU READY?</div>
-        <a href="#about" class="page-scroll btn btn-xl">Tell me more!</a>
-        <a class="btn btn-xl" href="/registration/">Register</a>
-    </div>
-    <!-- I decided to add this file instead of edit the layout -->
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in logotype">The Quantum Era is arriving.</div>
+            <div class="intro-heading logotype">ARE YOU READY?</div>
+            <a href="#about" class="page-scroll btn btn-xl">Tell me more!</a>
+            <a class="btn btn-xl" href="/registration/">Register</a>
+        </div>
+        <!-- I decided to add this file instead of edit the layout -->
 
 
 <style>
@@ -283,7 +318,8 @@
   marqueeP.style.animationDuration = `${animationDuration}s`;
 </script>
 
-    <img src="/assets/img/micio.png" class="micio">
+        <img src="/assets/img/micio.png" class="micio" alt="cat">
+    </div>
 </header>
 
 <main>
@@ -601,6 +637,35 @@
                         <li>
                             <a href="https://www.researchgate.net/profile/M-Paternostro" target="_blank">
                                 <i class="fa fa-link"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="team-member">
+                    <img src="assets/img/speakers/" class="img-responsive img-circle" alt="">
+                    <h4>Simone Gasperini</h4>
+                    <p class="text-muted">PhD student @ Università degli Studi di Bologna</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.unibo.it/sitoweb/simone.gasperini4" target="_blank">
+                                <i class="fa fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/simone-gasperini-15a132183" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://github.com/SimoneGasperini" target="_blank">
+                                <i class="fa fa-github"></i>
                             </a>
                         </li>
                         
@@ -968,6 +1033,12 @@
             <div class="col-md-3 col-sm-6">
                 <a href="https://nexum-ai.com/" target="_blank">
                     <img src="assets/img/logos/nexum_logo_nobg.png" class="img-responsive img-centered" alt="nexum_logo_nobg.png"  style="max-height: 100px;">
+                </a>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <a href="https://ai-sf.it/" target="_blank">
+                    <img src="assets/img/logos/aisf_palermo_logo.png" class="img-responsive img-centered" alt="aisf_palermo_logo.png"  style="max-height: 100px;">
                 </a>
             </div>
             

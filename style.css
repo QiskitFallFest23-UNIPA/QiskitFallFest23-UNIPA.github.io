@@ -30,6 +30,7 @@
 p {
     font-size: 14px;
     line-height: 1.75;
+    text-align: justify; /*alb*/
 }
 
 p.large {
@@ -331,6 +332,12 @@ header {
 header .intro-text {
     padding-top: 200px;
     padding-bottom: 50px;
+}
+
+@media (max-width: 435px) {
+    header .intro-text {
+        padding-top: 112px;
+    }
 }
 
 header .intro-text .intro-lead-in {
@@ -717,6 +724,7 @@ section h3.section-subheading {
 }
 
 .team-member p {
+    text-align: center; /*alb*/
     margin-top: 0;
 }
 
@@ -975,9 +983,15 @@ header.theme-1 {
     background-color: #fdf9eb;
 }
 
-@media(min-width:768px) {
+@media(min-width: 540px) {
     header.theme-1 {
         background-size: 85%;
+    }
+}
+
+@media (max-width: 540px) {
+    header.theme-1 {
+        background-size: cover;
     }
 }
 
