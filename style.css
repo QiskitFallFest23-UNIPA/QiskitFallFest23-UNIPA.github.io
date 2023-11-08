@@ -329,17 +329,6 @@ header {
     -o-background-size: cover;
 }
 
-header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 50px;
-}
-
-@media (max-width: 435px) {
-    header .intro-text {
-        padding-top: 112px;
-    }
-}
-
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
 
@@ -360,10 +349,6 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
-    header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
@@ -383,7 +368,7 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
 
         font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 60px;
         font-weight: 700;
         line-height: 75px;
         /*alb*/
@@ -966,6 +951,12 @@ blockquote footer {
 }
 /* set the `theme_number` variable in `_config.yml` to the theme number you want to use */
 
+/*------------------Nav ------------------*/
+
+nav.theme-1 {
+    background-color: #0000003d
+}
+
 
 /*------------------Theme 0------------------*/
 
@@ -974,7 +965,7 @@ header.theme-0 {
     background-image: url('/assets/img/blue_gradient.jpg');
 }
 
-/*------------------Theme 1------------------*/
+/*------------------ header------------------*/
 
 header.theme-1 {
     background-size: 90%;
