@@ -199,6 +199,14 @@
         width: 100vw;
     }
 
+    header .intro-text {
+        /*al centro dello schermo*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
     .micio {
         width: 100%;
         /*max-width: 480px;*/
@@ -239,7 +247,7 @@
     @media (min-width: 940px) {
         .micio {
             width: 50%;
-            max-width: 328px;
+            max-width: 370px;
         }
     }
 </style>
@@ -448,17 +456,8 @@
     </div>
 </section>
 
-    <style>
-
-    html[native-dark-active] section#partners img.invert-if-dark {
-        filter: invert(1);
-    }
-
-</style>
-
-
-<!-- Partners section -->
-<section id="partners">
+    <!-- Partners section -->
+<section id="partners" class="bg-light-gray">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -469,10 +468,12 @@
                 
                 <div class="col-md-3 col-sm-6">
                     <a href="https://qiskit.org/" target="_blank">
+                        <!--*invert*-->
                         
-                        <img src="assets/img/logos/qiskit_logotype.svg" 
-                        class="img-responsive img-centered invert-if-dark"
-                            alt="qiskit_logotype.svg" style="max-height: 100px;">
+                        <!--inverti se richiesto-->
+                        <img src="assets/img/logos/qiskit_logotype.svg"
+                            class="img-responsive img-centered invert-if-dark" alt="qiskit_logotype.svg"
+                            style="max-height: 100px;">
                         
                     </a>
                     <div style="text-align: justify; padding-top: 20px;">
@@ -482,10 +483,12 @@
                 
                 <div class="col-md-3 col-sm-6">
                     <a href="https://www.ibm.com/quantum" target="_blank">
+                        <!--*invert*-->
                         
-                        <img src="assets/img/logos/ibm_logo.png" 
-                        class="img-responsive img-centered invert-if-dark"
-                            alt="ibm_logo.png" style="max-height: 100px;">
+                        <!--inverti se richiesto-->
+                        <img src="assets/img/logos/ibm_logo.png"
+                            class="img-responsive img-centered invert-if-dark" alt="ibm_logo.png"
+                            style="max-height: 100px;">
                         
                     </a>
                     <div style="text-align: justify; padding-top: 20px;">
@@ -495,15 +498,15 @@
                 
                 <div class="col-md-3 col-sm-6">
                     <a href="http://www.unipa.it" target="_blank">
+                        <!--*unipa_logotipo-orizzontale-negativo.png*-->
                         
+                        <!-- se logo dark specificato, usa logo dark-->
                         <picture>
-                            <source 
-                              srcset="assets/img/logos/unipa_logotipo-orizzontale-negativo.png"
-                              media="(prefers-color-scheme: dark)">
-                              <img src="assets/img/logos/unipa_logotipo-orizzontale-a-colori.png" 
-                              class="img-responsive img-centered"
-                                  alt="unipa_logotipo-orizzontale-a-colori.png" style="max-height: 100px;">
-                          </picture>
+                            <source srcset="assets/img/logos/unipa_logotipo-orizzontale-negativo.png"
+                                media="(prefers-color-scheme: dark)">
+                            <img src="assets/img/logos/unipa_logotipo-orizzontale-a-colori.png" class="img-responsive img-centered"
+                                alt="unipa_logotipo-orizzontale-a-colori.png" style="max-height: 100px;">
+                        </picture>
                         
                     </a>
                     <div style="text-align: justify; padding-top: 20px;">
@@ -513,15 +516,11 @@
                 
                 <div class="col-md-3 col-sm-6">
                     <a href="https://www.unipa.it/dipartimenti/difc" target="_blank">
+                        <!--**-->
                         
-                        <picture>
-                            <source 
-                              srcset="assets/img/logos/"
-                              media="(prefers-color-scheme: dark)">
-                              <img src="assets/img/logos/unipa_dfc.jpg" 
-                              class="img-responsive img-centered"
-                                  alt="unipa_dfc.jpg" style="max-height: 100px;">
-                          </picture>
+                        <!-- se logo dark non specificato, usa logo-->
+                        <img src="assets/img/logos/unipa_difc.png" class="img-responsive img-centered"
+                            alt="unipa_difc.png" style="max-height: 100px;">                        
                         
                     </a>
                     <div style="text-align: justify; padding-top: 20px;">
@@ -1061,7 +1060,9 @@
             
             <div class="col-md-3 col-sm-6">
                 <a href="https://nexum-ai.com/" target="_blank">
+                    <!--*nexum_logo_white_no-bg.png*-->
                     
+                    <!-- se logo dark specificato, usa logo dark-->
                     <picture>
                         <source srcset="assets/img/logos/nexum_logo_white_no-bg.png" media="(prefers-color-scheme: dark)">
                         <img src="assets/img/logos/nexum_logo_nobg.png" class="img-responsive img-centered"
@@ -1073,12 +1074,11 @@
             
             <div class="col-md-3 col-sm-6">
                 <a href="https://ai-sf.it/" target="_blank">
+                    <!--**-->
                     
-                    <picture>
-                        <source srcset="assets/img/logos/" media="(prefers-color-scheme: dark)">
-                        <img src="assets/img/logos/aisf_palermo_logo.png" class="img-responsive img-centered"
-                            alt="aisf_palermo_logo.png" style="max-height: 100px;">
-                    </picture>
+                    <!-- se logo dark non specificato, usa logo-->
+                    <img src="assets/img/logos/aisf_palermo_logo.png" class="img-responsive img-centered"
+                        alt="aisf_palermo_logo.png" style="max-height: 100px;">
                     
                 </a>
             </div>
