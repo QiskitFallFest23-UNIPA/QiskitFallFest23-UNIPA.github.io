@@ -329,6 +329,17 @@ header {
     -o-background-size: cover;
 }
 
+header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 435px) {
+    header .intro-text {
+        padding-top: 112px;
+    }
+}
+
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
 
@@ -349,6 +360,10 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    header .intro-text {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
@@ -368,7 +383,7 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
 
         font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 60px;
+        font-size: 75px;
         font-weight: 700;
         line-height: 75px;
         /*alb*/
@@ -951,12 +966,6 @@ blockquote footer {
 }
 /* set the `theme_number` variable in `_config.yml` to the theme number you want to use */
 
-/*------------------Nav ------------------*/
-
-nav.theme-1 {
-    background-color: #0000003d
-}
-
 
 /*------------------Theme 0------------------*/
 
@@ -965,7 +974,7 @@ header.theme-0 {
     background-image: url('/assets/img/blue_gradient.jpg');
 }
 
-/*------------------ header------------------*/
+/*------------------Theme 1------------------*/
 
 header.theme-1 {
     background-size: 90%;
@@ -974,51 +983,19 @@ header.theme-1 {
     background-color: #fdf9eb;
 }
 
-@media (prefers-color-scheme: light) {
-    @media(min-width: 540px) {
-        header.theme-1 {
-            background-size: 85%;
-        }
-    }
-
-    @media (max-width: 540px) {
-        header.theme-1 {
-            background-size: cover;
-        }
+@media(min-width: 540px) {
+    header.theme-1 {
+        background-size: 85%;
     }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (max-width: 540px) {
     header.theme-1 {
         background-size: cover;
     }
 }
 
-/*------------------ section------------------*/
-
-
-
-@media (prefers-color-scheme: dark) {
-
-    img.invert-if-dark {
-        filter: invert(1);
-    }
-
-    section {
-        background-color: #000000;
-        color: #ffffff;
-    }
-
-    section.bg-light-gray {
-        background-color: #202c30;
-        color: #ffffff;
-    }
-
-    .text-muted {
-        color: #93bfed;
-    }
-
-    a[ping]:link, a[ping]:link > *, :link:not(cite) {
-        color: var(--native-dark-font-color) !important;
-    }
+nav.theme-1 {
+    background-color: #0000003d
 }
+
