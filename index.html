@@ -448,7 +448,16 @@
     </div>
 </section>
 
-    <!-- Partners section -->
+    <style>
+
+    html[native-dark-active] section#partners img.invert-if-dark {
+        filter: invert(1);
+    }
+
+</style>
+
+
+<!-- Partners section -->
 <section id="partners">
     <div class="container">
         <div class="row">
@@ -460,8 +469,16 @@
                 
                 <div class="col-md-3 col-sm-6">
                     <a href="https://qiskit.org/" target="_blank">
-                    <img src="assets/img/logos/qiskit_logotype.svg" class="img-responsive img-centered"
-                            alt="qiskit_logotype.svg" style="max-height: 100px;">
+                        
+                        <picture>
+                            <source 
+                              srcset="assets/img/logos/invert"
+                              media="(prefers-color-scheme: dark)">
+                              <img src="assets/img/logos/qiskit_logotype.svg" 
+                              class="img-responsive img-centered"
+                                  alt="qiskit_logotype.svg" style="max-height: 100px;">
+                          </picture>
+                        
                     </a>
                     <div style="text-align: justify; padding-top: 20px;">
                         <p>Qiskit is an open-source framework for working with noisy quantum computers at the level of pulses, circuits, and algorithms. It provides tools for creating and manipulating quantum programs and running them on prototype quantum devices on IBM Quantum Experience or on simulators on a local computer. Qiskit also enables the user to optimize quantum circuits for a particular device, perform quantum computing experiments on real devices with little effort, and easily access to IBM Quantum hardware through the cloud.</p>
@@ -470,8 +487,16 @@
                 
                 <div class="col-md-3 col-sm-6">
                     <a href="https://www.ibm.com/quantum" target="_blank">
-                    <img src="assets/img/logos/ibm_logo.png" class="img-responsive img-centered"
-                            alt="ibm_logo.png" style="max-height: 100px;">
+                        
+                        <picture>
+                            <source 
+                              srcset="assets/img/logos/invert"
+                              media="(prefers-color-scheme: dark)">
+                              <img src="assets/img/logos/ibm_logo.png" 
+                              class="img-responsive img-centered"
+                                  alt="ibm_logo.png" style="max-height: 100px;">
+                          </picture>
+                        
                     </a>
                     <div style="text-align: justify; padding-top: 20px;">
                         <p>IBM Quantum is an industry-first initiative to build universal quantum computers for business, engineering and science. This effort includes advancing the entire quantum computing technology stack and exploring applications to make quantum broadly usable and accessible. With a worldwide network of Fortune 500 companies, academic institutions, researchers, educators, and enthusiasts, IBM Quantum is committed to driving innovation for clients in the IBM Q Network and the Qiskit Community.</p>
@@ -480,8 +505,16 @@
                 
                 <div class="col-md-3 col-sm-6">
                     <a href="http://www.unipa.it" target="_blank">
-                    <img src="assets/img/logos/unipa_logotipo-orizzontale-a-colori.png" class="img-responsive img-centered"
-                            alt="unipa_logotipo-orizzontale-a-colori.png" style="max-height: 100px;">
+                        
+                        <picture>
+                            <source 
+                              srcset="assets/img/logos/unipa_logotipo-orizzontale-negativo.png"
+                              media="(prefers-color-scheme: dark)">
+                              <img src="assets/img/logos/unipa_logotipo-orizzontale-a-colori.png" 
+                              class="img-responsive img-centered"
+                                  alt="unipa_logotipo-orizzontale-a-colori.png" style="max-height: 100px;">
+                          </picture>
+                        
                     </a>
                     <div style="text-align: justify; padding-top: 20px;">
                         <p>The <i>Università degli Studi di Palermo</i>, with its over 40'000 members, is one of the 11 Italian mega universities. It is a renowned institution with a rich history dating back to 1806. Originally established by Ferdinando III of Borbone, it gained the authority to confer degrees in theology, medicine, law, and philosophy. Over the years, the university has gone through significant transformations, becoming a hub for secular education and a breeding ground for notable scientific figures. Its enduring resilience, even after World War II, has allowed it to adapt to evolving educational needs and maintain its role in shaping the intellectual and political landscape of both Sicily and Italy.</p>
@@ -490,8 +523,16 @@
                 
                 <div class="col-md-3 col-sm-6">
                     <a href="https://www.unipa.it/dipartimenti/difc" target="_blank">
-                    <img src="assets/img/logos/unipa_dfc.jpg" class="img-responsive img-centered"
-                            alt="unipa_dfc.jpg" style="max-height: 100px;">
+                        
+                        <picture>
+                            <source 
+                              srcset="assets/img/logos/"
+                              media="(prefers-color-scheme: dark)">
+                              <img src="assets/img/logos/unipa_dfc.jpg" 
+                              class="img-responsive img-centered"
+                                  alt="unipa_dfc.jpg" style="max-height: 100px;">
+                          </picture>
+                        
                     </a>
                     <div style="text-align: justify; padding-top: 20px;">
                         <p>The Department boasts a prestigious, long-standing scientific legacy. Giuseppe Piazzi (1746-1826), first Director of the Observatory, discovered <i>Ceres</i>, the first asteroid discovered (now considered a dwarf planet). The physicist Emilio Segrè (1905-1989), after whom the DiFC is named, discovered the chemical element #41, the <i>Tecneto</i>, the only element of the periodic table discovered in Italy, in Via Archirafi; Furthermore, in 1959 he was awarded the Nobel Prize in Physics for his discoveries on the antiproton. The chemist Stanislao Cannizzaro (1826-910) was an illustrious scientist internationally renowned for having proposed "Cannizzaro's rule." He established the Chemistry Cabinet, the founding nucleus of the Royal Institute of General Chemistry. The historical roots of the DiFC are today demonstrated in the Specola Museum and Astronomical Observatory, in the Chemistry Museum and in the Historical Collection of Physics Instruments.</p>
@@ -1030,23 +1071,31 @@
             
             <div class="col-md-3 col-sm-6">
                 <a href="https://nexum-ai.com/" target="_blank">
-                    <img src="assets/img/logos/nexum_logo_nobg.png" class="img-responsive img-centered" alt="nexum_logo_nobg.png"  style="max-height: 100px;">
+                    
+                    <picture>
+                        <source srcset="assets/img/logos/nexum_logo_white_no-bg.png" media="(prefers-color-scheme: dark)">
+                        <img src="assets/img/logos/nexum_logo_nobg.png" class="img-responsive img-centered"
+                            alt="nexum_logo_nobg.png" style="max-height: 100px;">
+                    </picture>
+                    
                 </a>
             </div>
             
             <div class="col-md-3 col-sm-6">
                 <a href="https://ai-sf.it/" target="_blank">
-                    <img src="assets/img/logos/aisf_palermo_logo.png" class="img-responsive img-centered" alt="aisf_palermo_logo.png"  style="max-height: 100px;">
+                    
+                    <picture>
+                        <source srcset="assets/img/logos/" media="(prefers-color-scheme: dark)">
+                        <img src="assets/img/logos/aisf_palermo_logo.png" class="img-responsive img-centered"
+                            alt="aisf_palermo_logo.png" style="max-height: 100px;">
+                    </picture>
+                    
                 </a>
             </div>
             
         </div>
     </div>
 </section>
-
-
-
-
     <!--contacts.html-->
 </main>
   <footer>
