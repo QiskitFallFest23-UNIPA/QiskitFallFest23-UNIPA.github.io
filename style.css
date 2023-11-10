@@ -239,6 +239,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-collapse {
     border-color: hsla(0, 0%, 100%, 0.02);
+    max-height: none;
 }
 
 .navbar-default .navbar-toggle {
@@ -347,6 +348,20 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
 }
+
+
+
+@media(max-width:379px) {
+    .navbar-brand-large {
+        display: none;
+    }
+}
+@media(min-width:380px) {
+    .navbar-brand-small {
+        display: none;
+    }
+}
+
 
 @media(min-width:768px) {
 
@@ -951,12 +966,6 @@ blockquote footer {
 }
 /* set the `theme_number` variable in `_config.yml` to the theme number you want to use */
 
-/*------------------Nav ------------------*/
-
-nav.theme-1 {
-    background-color: #0000003d
-}
-
 
 /*------------------Theme 0------------------*/
 
@@ -978,15 +987,18 @@ header.theme-1 {
     header.theme-1 {
         background-size: 85%;
     }
-}
-
-@media (max-width: 540px) {
-    header.theme-1 {
-        background-size: cover;
+    nav.theme-1 {
+        background-color: rgba(0,0,0,0.24)
     }
 }
 
-nav.theme-1 {
-    background-color: #0000003d
-}
+@media (max-width: 539px) {
+    header.theme-1 {
+        background-size: cover;
+    }
 
+    nav.theme-1 {
+        background-color: rgba(0,0,0,0.6)
+    }
+    
+}
