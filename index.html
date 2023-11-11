@@ -14,7 +14,7 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     
-    <link rel="stylesheet" href=" /style.css?v=202311111804">
+    <link rel="stylesheet" href=" /style.css?v=202311111847">
     <link rel="stylesheet" href=" /assets/css/font-awesome/css/font-awesome.min.css">
 
     <!-- Custom Fonts -->
@@ -733,44 +733,53 @@
     </div>
 </section>
     <!-- Agenda section -->
+
+<style>
+    #agenda-table th {
+        text-align: center;
+    }
+
+    #agenda-table td {
+        text-align: left;
+    }
+
+    #agenda-table caption {
+        caption-side: bottom;
+    }
+
+    #agenda-table th,
+    #agenda-table td {
+        border: 2px solid #2d7dc7;
+    }
+
+    #agenda-table .event-title {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    #agenda-table .day-title {
+        font-size: large;
+        background-color: #e8f4f8;
+        color: #333;
+    }
+
+    table#agenda-table tr:not(:first-child) td {
+        /* Apply styles for td elements in tr elements from the second to the one before the last */
+        border-top: none !important;
+    }
+
+    table#agenda-table tr:not(:last-child) td {
+    /* Apply styles for td elements in tr elements from the second to the one before the last */
+    border-bottom: none !important;
+}
+</style>
+
 <section id="agenda">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Agenda</h2>
                 <h3 class="section-subheading text-muted"></h3>
-                
-
-                <style>
-                    #agenda-table th {
-                        text-align: center;
-                    }
-
-                    #agenda-table td {
-                        text-align: left;
-                    }
-
-                    #agenda-table caption {
-                        caption-side: bottom;
-                    }
-
-                    #agenda-table th,
-                    #agenda-table td {
-                        border: 2px solid #2d7dc7;
-                    }
-
-                    #agenda-table .event-title {
-                        font-size: large;
-                        font-weight: bold;
-                    }
-
-                    #agenda-table .day-title {
-                        font-size: large;
-                        background-color: #e8f4f8;
-                        color: #333;
-                    }
-                </style>
-
                 
                 <table id="agenda-table" class="table table-bordered">
                     <caption>
@@ -938,9 +947,6 @@
                         
                     </tbody>
                 </table>
-
-
-
             </div>
         </div>
     </div>
