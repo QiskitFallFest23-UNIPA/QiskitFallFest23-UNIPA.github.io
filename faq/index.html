@@ -20,7 +20,7 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     
-    <link rel="stylesheet" href=" /style.css?v=202311101822">
+    <link rel="stylesheet" href=" /style.css?v=202311111116">
     <link rel="stylesheet" href=" /assets/css/font-awesome/css/font-awesome.min.css">
 
     <!-- Custom Fonts -->
@@ -313,7 +313,7 @@
     
     <li class="faq-item">
       <p class="faq-question">How can I stay updated on event announcements and news?</p>
-      <p class="faq-answer">You can follow us on <a href="https://www.instagram.com/qiskit_fall_fest_23_palermo/">Instagram</a>, <a href="https://www.linkedin.com/in/qiskit-fall-fest-2023-palermo-italy">LinkedIn</a> and <a href="https://twitter.com/qiskit_unipa_it">X (or Twitter ;-))</a>.</p>
+      <p class="faq-answer">You can follow us on {% for social in site.social %} <a href="{{social.url}}">{{social.title}}</a>,{% endfor %}.</p>
     </li>
     
     <li class="faq-item">
@@ -410,7 +410,7 @@ If you wish to reach the Conference Venue directly from the Airport, the fastest
                     
                     <li><a href="https://www.youtube.com/@QiskitFallFest23UnipaIT"><i class="fa fa-youtube"></i></a></li>
                     
-                    <li><a href="https://www.instagram.com/qiskit.unipa.it/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://instagram.com/qiskit_fall_fest_23_palermo"><i class="fa fa-instagram"></i></a></li>
                     
                     <li><a href="https://twitter.com/qiskit_unipa_it"><i class="fa fa-twitter"></i></a></li>
                     
