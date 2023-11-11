@@ -5,8 +5,8 @@
     <description>Discover Quantum Computing</description>
     <link>https://qiskitfallfest23-unipa.github.io//</link>
     <atom:link href="https://qiskitfallfest23-unipa.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 11 Nov 2023 16:26:18 +0000</pubDate>
-    <lastBuildDate>Sat, 11 Nov 2023 16:26:18 +0000</lastBuildDate>
+    <pubDate>Sat, 11 Nov 2023 17:17:37 +0000</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2023 17:17:37 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -335,14 +335,18 @@ the organizers&lt;/p&gt;
     
       <item>
         <title>Introducing the Qiskit Fall Fest</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/qff23/Logo_wo_qiskit.png&quot; alt=&quot;Logo_wo_qiskit.png&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p style=&quot;
+    text-align: center;
+&quot;&gt;&lt;img style=&quot;display: inline-block; max-width: 200px;  width: 100%;  height: auto; 
+  &quot; src=&quot;/assets/img/qff23/Logo_wo_qiskit.png&quot; alt=&quot;Logo_wo_qiskit.png&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote cite=&quot;https://qiskit.org/events/fall-fest/&quot;&gt;
 The Qiskit Fall Fest is a collection of quantum computing events &lt;i&gt;on college campuses&lt;/i&gt; around the world.
 
 Every Fall Fest event is &lt;i&gt;organized and run by the students&lt;/i&gt; on each campus, with support from IBM Quantum. Student leaders work alongside IBM to design and plan their event, which are run in October and November. Each event is standalone - only made for the students on that particular campus.
 
-&lt;footer&gt;&lt;a href=&quot;https://qiskit.org/events/fall-fest/&quot; target=&quot;_blank&quot;&gt;Qiskit Fall Fest&lt;/a&gt;&lt;/footer&gt;
+&lt;footer&gt;
+&lt;a href=&quot;https://qiskit.org/events/fall-fest/&quot; target=&quot;_blank&quot;&gt;Qiskit Fall Fest&lt;/a&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;The events vary from technical hackathons, workshops, meetups to beginner-friendly challenges, all with the goal of helping to grow the local community’s skill set.&lt;/p&gt;
@@ -350,17 +354,11 @@ Every Fall Fest event is &lt;i&gt;organized and run by the students&lt;/i&gt; on
 &lt;p&gt;The Qiskit Fall Fest is a celebration of quantum technology, research, and collaboration, bringing together quantum enthusiasts, researchers, students, and professionals from around the world. Whether you’re a quantum expert or just starting your journey into the quantum realm, this event is designed for you.&lt;/p&gt;
 
 &lt;!--more--&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[Introducing the Qiskit Fall Fest, &lt;em&gt;Brian Ingmanson&lt;/em&gt;&lt;/td&gt;
-      &lt;td&gt;Medium](https://medium.com/qiskit/introducing-the-qiskit-fall-fest-feb8456b557)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://qiskit.org/events/fall-fest/&quot;&gt;Qiskit Fall Fest website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;References:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/qiskit/introducing-the-qiskit-fall-fest-feb8456b557&quot; target=&quot;_blank&quot;&gt;Introducing the Qiskit Fall Fest, &lt;i&gt;Brian Ingmanson&lt;/i&gt; | Medium&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qiskit.org/events/fall-fest/&quot;&gt;Qiskit Fall Fest website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
         <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
