@@ -20,7 +20,7 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     
-    <link rel="stylesheet" href=" /style.css?v=202311111408">
+    <link rel="stylesheet" href=" /style.css?v=202311111623">
     <link rel="stylesheet" href=" /assets/css/font-awesome/css/font-awesome.min.css">
 
     <!-- Custom Fonts -->
@@ -219,145 +219,174 @@
                 <div class="row">
                     <div class="col-lg-12" style="text-align: justify; word-break: break-word">
                         <style>
-  /* Style the FAQ section */
-  .faq-section {
-    background-color: #f7f7f7;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-  }
-
-
-  /* Style FAQ list items */
-  .faq-item {
-    margin-bottom: 20px;
-  }
-
-  /* Style FAQ question, answer */
-  .faq-answer, .faq-question {
-    font-size: 18px;
-    color: #666;
-  }
-
-  .faq-question {
-    font-weight: bold;
-  }
-
-  /* Style the curved background shape */
-  .faq-shape {
-    background-color: #387cc4; /* Choose your desired color */
-    color: white;
-    padding: 10px 15px;
-    border-radius: 20px; /* Smooth rounded corners */
-    font-size: 24px;
-    margin-bottom: 20px;
-    display: inline-block;
-    position: relative;
-  }
-
-  .faq-shape::before {
-    content: '';
-    background-color: inherit;
-    width: 100%;
-    height: 40px;
-    border-radius: 0 0 20px 20px; /* Smooth rounded corners for the top */
-    position: absolute;
-    top: -20px;
-    left: 0;
-    z-index: -1;
-  }
-
-  @media(max-width:768px) {
+    /* Style the FAQ section */
     .faq-section {
-        padding: 20px;
+        background-color: #f7f7f7;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: relative;
     }
-    .faq-answer, .faq-question {
-      font-size: 14px;
+
+
+    /* Style FAQ list items */
+    .faq-item {
+        margin-bottom: 20px;
     }
-  }
+
+    /* Style FAQ question, answer */
+    .faq-answer,
+    .faq-question {
+        font-size: 18px;
+        color: #666;
+    }
+
+    .faq-question {
+        font-weight: bold;
+    }
+
+    /* Style the curved background shape */
+    .faq-shape {
+        background-color: #387cc4;
+        /* Choose your desired color */
+        color: white;
+        padding: 10px 15px;
+        border-radius: 20px;
+        /* Smooth rounded corners */
+        font-size: 24px;
+        margin-bottom: 20px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .faq-shape::before {
+        content: '';
+        background-color: inherit;
+        width: 100%;
+        height: 40px;
+        border-radius: 0 0 20px 20px;
+        /* Smooth rounded corners for the top */
+        position: absolute;
+        top: -20px;
+        left: 0;
+        z-index: -1;
+    }
+
+    @media(max-width:768px) {
+        .faq-section {
+            padding: 20px;
+        }
+
+        .faq-answer,
+        .faq-question {
+            font-size: 14px;
+        }
+    }
 </style>
 
 <div class="faq-section">
-  <ol style="padding-left: 20px">
-    
-    <li class="faq-item">
-      <p class="faq-question">How to register?</p>
-      <p class="faq-answer">The event is open to everyone, you can register <a href="/registration/">here</a>.</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">Will there be hands-on workshops?</p>
-      <p class="faq-answer">Yes, there will be. We will use Jupiter Notebooks containing examples on the Qiskit library. You can find the materials <a href="https://drive.google.com/drive/folders/1DvhPVAa0CJuzW1uQSyje9DTr1bqkY-EP?usp=drive_link">here</a>.</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">What is the expected level of quantum computing knowledge for attendees?</p>
-      <p class="faq-answer">No prior knowledge of QC is required, but surely already having basics of Linear Algebra and Quantum Mechanics makes it easy to understand the topics.</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">Can I participate remotely or watch recorded sessions if I can't attend in person?</p>
-      <p class="faq-answer">Sure, the event will also be broadcast.</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">What should I bring or prepare before attending the event?</p>
-      <p class="faq-answer">Your personal computer and a lot of curiosity.</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">Is there a Q&A session or a way to ask questions during the event?</p>
-      <p class="faq-answer">Sure, you can ask your question during the Event at our Speakers. More over you can contact us <a href="/contacts/">here</a>.</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">How can I stay updated on event announcements and news?</p>
-      <p class="faq-answer">You can follow us on <a href="https://linktr.ee/qiskit_fall_fest_palermo">our socials</a>.</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">What is the event's hashtag for social media sharing?</p>
-      <p class="faq-answer">The event hashtag is <em>#qiskitfallfest23palermo</em>.</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">How can I travel from Palermo Airport to the Venue?</p>
-      <p class="faq-answer">You have several transportation options:<br>
-- Bus: At 30-minute intervals, the airport buses depart daily between 04:00 - 22:30.<br>
-- Train: The regional train from the Airport to the Central Station leaves at 30-minute intervals between 05:15 - 00:25 daily.<br>
-- Car: Take the A29 motorway in the direction of Palermo.<br>
-- Taxi: Taxis are available at the International Arrivals.<br>
-
-If you wish to reach the Conference Venue directly from the Airport, the fastest way is the train; the stop "Palermo Centrale" is 300 meters away from the venue. The Conference Venue address is Università degli Studi di Palermo - Aula A, Via Archirafi 36.
-</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">What if I have technical difficulties during the event?</p>
-      <p class="faq-answer">Contact us <a href="/contacts/">here</a>!</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">Can I bring guests or colleagues with me to the event?</p>
-      <p class="faq-answer">Of course, guests are allowed, but make sure they are also registered for the event as places in-presence are limited.</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">Need more help?</p>
-      <p class="faq-answer">Contact us <a href="/contacts/">here</a>!</p>
-    </li>
-    
-    <li class="faq-item">
-      <p class="faq-question">How to leave you my feedback?</p>
-      <p class="faq-answer">We will send you a survey after the event. We would love to hear your feedback and suggestions.</p>
-    </li>
-    
-  </ol>
-  <p>For further enquiries, kindly submit your question via the <a href="/contacts/">Contact us</a> page</p>
-  <p>Last update: Nov 11, 2023</p>
+    <ol style="padding-left: 20px">
+        
+        <li class="faq-item">
+            <p class="faq-question">✔️ How to register?</p>
+            
+            <p class="faq-answer">The event is open to everyone, you can register <a href="/registration/">here</a>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">👨‍💻 Will there be hands-on sessions?</p>
+            
+            <p class="faq-answer">Yes, there will be. We will use Jupiter Notebooks containing examples on the Qiskit library. You can find the materials <a href="https://drive.google.com/drive/folders/1DvhPVAa0CJuzW1uQSyje9DTr1bqkY-EP?usp=drive_link">here</a>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">👨‍🏫 What is the expected level of quantum computing knowledge for attendees?</p>
+            
+            <p class="faq-answer">No prior knowledge of QC is required, but surely already having basics of Linear Algebra and Quantum Mechanics make it easy to understand the topics.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🎥🗼 Can I participate remotely or watch recorded sessions if I can't attend in person?</p>
+            
+            <p class="faq-answer">Sure, the event will also be broadcast and, maybe, recorded.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🎒 What should I bring or prepare before attending the event?</p>
+            
+            <p class="faq-answer">Your personal computer and a lot of curiosity.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🎤 Is there a Q&A session or a way to ask questions during the event?</p>
+            
+            <p class="faq-answer">Sure, you can ask your question during the Event at our Speakers. Moreover, you can contact us <a href="/contacts/">here</a>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">📢 How can I stay updated on event announcements and news?</p>
+            
+            <p class="faq-answer">You can follow us on <a href="https://linktr.ee/qiskit_fall_fest_palermo">our socials</a>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">#️⃣ What is the event's hashtag for social media sharing?</p>
+            
+            <p class="faq-answer">The official hashtag of the Event is <span style="color: #2d7dc7;">#qiskitfallfest23palermo</span>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🛬 How to get to the Venue from the Palermo Airport?</p>
+            
+            
+            
+            <p class="faq-answer">You have several transportation options:</p>
+            
+            <p class="faq-answer"><ul style="list-style-type:disc"><li>🚌 the airport buses depart daily between 04:00 - 22:30 at 30-minute intervals.</li><li>🚄 the regional train from the Airport to the Central Station leaves at 30-minute intervals between 05:15 - 00:25 daily.</li><li>🚗 you can take the A29 motorway in the direction of Palermo by car.</li><li>🚕 taxis are available at the International Arrivals of the Airport.</li></ul></p>
+            
+            <p class="faq-answer"><i class="fa fa-info-circle" aria-hidden="true"></i> If you wish to reach us directly from the Airport, the fastest way is the train: 🚏 the stop `Palermo Central` is 300 meters away from the Event venue.</p>
+            
+            <p class="faq-answer">📍 The Event venue address is <em>Università degli Studi di Palermo, Via Archirafi 36, Aula A</em>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🙋🏻‍♂️➕ Can I bring guests or colleagues with me to the event?</p>
+            
+            <p class="faq-answer">Of course, guests are allowed, but make sure they are also registered for the event as places in-presence are limited.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">📝 How to leave you my feedback?</p>
+            
+            <p class="faq-answer">We will send you a survey after the event. We would love to hear your feedback and suggestions.</p>
+            
+            
+        </li>
+        
+    </ol>
+    <p class="faq-answer">❓ For further enquiries, kindly submit your question via the <a href=" /contacts/">Contact us</a> page.</p>
+    <p style="text-align: right">Last update: Nov 11, 2023</p>
 </div>
-
                     </div>
                 </div>
             </div>
