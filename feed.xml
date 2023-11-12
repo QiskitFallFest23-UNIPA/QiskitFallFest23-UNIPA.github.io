@@ -5,8 +5,8 @@
     <description>Discover Quantum Computing</description>
     <link>https://qiskitfallfest23-unipa.github.io//</link>
     <atom:link href="https://qiskitfallfest23-unipa.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Nov 2023 11:38:34 +0000</pubDate>
-    <lastBuildDate>Sun, 12 Nov 2023 11:38:34 +0000</lastBuildDate>
+    <pubDate>Sun, 12 Nov 2023 11:40:34 +0000</pubDate>
+    <lastBuildDate>Sun, 12 Nov 2023 11:40:34 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -282,9 +282,8 @@ the organizers&lt;/p&gt;
     
       <item>
         <title>First steps with Qiskit</title>
-        <description>&lt;p&gt;Prepare for the Fall Fest by reviewing the documentation and installing Qiskit.&lt;/p&gt;
+        <description>&lt;p&gt;Prepare for the Fall Fest by reviewing the documentation and &lt;a href=&quot;https://qiskit.org/documentation/getting_started.html#installation&quot;&gt;installing&lt;/a&gt; Qiskit.&lt;/p&gt;
 
-&lt;p&gt;https://qiskit.org/documentation/getting_started.html#installation&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
         <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/10/11/Qiskit.html</link>
