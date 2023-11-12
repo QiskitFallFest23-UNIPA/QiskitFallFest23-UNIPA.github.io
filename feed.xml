@@ -5,24 +5,9 @@
     <description>Discover Quantum Computing</description>
     <link>https://qiskitfallfest23-unipa.github.io//</link>
     <atom:link href="https://qiskitfallfest23-unipa.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Nov 2023 09:43:51 +0000</pubDate>
-    <lastBuildDate>Sun, 12 Nov 2023 09:43:51 +0000</lastBuildDate>
+    <pubDate>Sun, 12 Nov 2023 11:38:34 +0000</pubDate>
+    <lastBuildDate>Sun, 12 Nov 2023 11:38:34 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
-    
-      <item>
-        <title>QFF23 challenges</title>
-        <description>&lt;p&gt;Jupiter notebooks which are python-based coding notebooks and inside of those notebooks there’s some tutorial content that teaches people about some new thing and Quantum Computing and then there are code challenges built into it where people have to fill in code based on the tutorials they just read and then submit their answers to an auto grader which will tell them whether they’re correct or not we have built a series of these Labs or these challenge notebooks for you to use as part of your event and we’re going to send them to you as a zip file so you don’t need to sign into IBM Quantum and register there we’re actually going to send them directly to you and then you can distribute them to your participants.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/28/QFF23-challenges.html</link>
-        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/28/QFF23-challenges.html</guid>
-        
-        <category>QFF23</category>
-        
-        
-        <category>QFF23</category>
-        
-      </item>
     
       <item>
         <title>Why to partecipate</title>
@@ -48,7 +33,7 @@
             
 
 
-            &lt;h1 class=&quot;lang-en &quot;&gt;Why to partecipate&lt;/h1&gt;
+            &lt;!--&lt;h1 class=&quot;lang-en &quot;&gt;Why to partecipate&lt;/h1&gt; FIXME--&gt;
             &lt;div class=&quot;lang-en &quot;&gt;
 &lt;p&gt;Dear reader,&lt;/p&gt;
 
@@ -101,7 +86,7 @@ the organizers&lt;/p&gt;
             
 
 
-            &lt;h1 class=&quot;lang-it hidden&quot;&gt;Why to partecipate&lt;/h1&gt;
+            &lt;!--&lt;h1 class=&quot;lang-it hidden&quot;&gt;Why to partecipate&lt;/h1&gt; FIXME--&gt;
             &lt;div class=&quot;lang-it hidden&quot;&gt;
 &lt;p&gt;Caro lettore,&lt;/p&gt;
 
@@ -186,9 +171,9 @@ gli organizzatori&lt;/p&gt;
 &lt;/script&gt;
 
 </description>
-        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/28/Why-to-partecipate.html</link>
-        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/28/Why-to-partecipate.html</guid>
+        <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/10/28/Why-to-partecipate.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/10/28/Why-to-partecipate.html</guid>
         
         <category>QFF23</category>
         
@@ -239,9 +224,9 @@ gli organizzatori&lt;/p&gt;
 &lt;p&gt;Con entusiasmo,
 gli organizzatori&lt;/p&gt;
 </description>
-        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-        <link>https://qiskitfallfest23-unipa.github.io//blog/2023/09/28/Why-to-partecipate.it.html</link>
-        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/2023/09/28/Why-to-partecipate.it.html</guid>
+        <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/2023/10/28/Why-to-partecipate.it.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/2023/10/28/Why-to-partecipate.it.html</guid>
         
         
       </item>
@@ -288,9 +273,9 @@ gli organizzatori&lt;/p&gt;
 &lt;p&gt;Enthusiastically,
 the organizers&lt;/p&gt;
 </description>
-        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-        <link>https://qiskitfallfest23-unipa.github.io//blog/2023/09/28/Why-to-partecipate.en.html</link>
-        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/2023/09/28/Why-to-partecipate.en.html</guid>
+        <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/2023/10/28/Why-to-partecipate.en.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/2023/10/28/Why-to-partecipate.en.html</guid>
         
         
       </item>
@@ -300,15 +285,10 @@ the organizers&lt;/p&gt;
         <description>&lt;p&gt;Prepare for the Fall Fest by reviewing the documentation and installing Qiskit.&lt;/p&gt;
 
 &lt;p&gt;https://qiskit.org/documentation/getting_started.html#installation&lt;/p&gt;
-
-&lt;blockquote&gt;
-    &lt;p&gt;“Nature isn’t classical, dammit, and if you want to make a simulation of nature, you’d better make it quantum mechanical, and by golly it’s a wonderful problem, because it doesn’t look so easy.”&lt;/p&gt;
-    &lt;footer&gt;Richard Feynman&lt;/footer&gt;
-&lt;/blockquote&gt;
 </description>
-        <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
-        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/11/Qiskit.html</link>
-        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/11/Qiskit.html</guid>
+        <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/10/11/Qiskit.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/10/11/Qiskit.html</guid>
         
         <category>QFF23</category>
         
@@ -318,18 +298,36 @@ the organizers&lt;/p&gt;
       </item>
     
       <item>
-        <title>Sign Up for Quantum Explorers!</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://medium.com/qiskit/sign-up-for-qiskit-quantum-explorers-78844c0f9d00&quot;&gt;&lt;/a&gt;
-&lt;a href=&quot;https://challenges.quantum-computing.ibm.com/quantum-explorers-23&quot;&gt;Quantum Explorers&lt;/a&gt;&lt;/p&gt;
+        <title>Announcing the Qiskit Fall Fest 2023 in Palermo</title>
+        <description>&lt;p&gt;We are thrilled to invite you to the &lt;em&gt;Qiskit Fall Fest 2023&lt;/em&gt; partner event in Palermo, Italy!&lt;/p&gt;
+
+&lt;blockquote cite=&quot;https://qiskit.org/events/fall-fest/&quot;&gt;
+The Qiskit Fall Fest is a collection of quantum computing events &lt;i&gt;on college campuses&lt;/i&gt; around the world.
+
+Every Fall Fest event is &lt;i&gt;organized and run by the students&lt;/i&gt; on each campus, with support from IBM Quantum. Student leaders work alongside IBM to design and plan their event, which are run in October and November. Each event is standalone - only made for the students on that particular campus.
+
+&lt;footer&gt;
+&lt;a href=&quot;https://qiskit.org/events/fall-fest/&quot; target=&quot;_blank&quot;&gt;Qiskit Fall Fest&lt;/a&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;📢 Stay tuned for registration details, speaker announcements, and more exciting updates on our &lt;a href=&quot;/&quot;&gt;website&lt;/a&gt;. Follow us on &lt;a href=&quot;https://linktr.ee/qiskit_fall_fest_palermo&quot;&gt;our socials&lt;/a&gt; for the latest news and discussions using our official hashtag &lt;span style=&quot;color: #2d7dc7;&quot;&gt;#qiskitfallfest23palermo&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;📅 Mark your calendars for &lt;strong&gt;November 24-29, 2023&lt;/strong&gt;, and join us in Palermo, Italy, for an unforgettable quantum experience! Save the date and prepare to embrace the quantum future at Qiskit Fall Fest 2023!&lt;/p&gt;
+
+&lt;p&gt;Don’t miss this opportunity to be part of the quantum revolution at Qiskit Fall Fest 2023. Whether you’re a quantum enthusiast, researcher, student, or industry professional, there’s something for everyone. We look forward to welcoming you to Palermo for a quantum celebration like no other!&lt;/p&gt;
+
+&lt;p&gt;For inquiries and sponsorship opportunities, please &lt;a href=&quot;/contact/&quot;&gt;contact us&lt;/a&gt;!&lt;/p&gt;
 </description>
-        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
-        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/10/Quantum-Explorers.html</link>
-        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/10/Quantum-Explorers.html</guid>
+        <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/palermo/2023/10/10/Announcing-the-Qiskit-Fall-Fest-2023-in-Palermo.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/palermo/2023/10/10/Announcing-the-Qiskit-Fall-Fest-2023-in-Palermo.html</guid>
         
-        <category>QFF23</category>
+        <category>Palermo</category>
         
         
-        <category>QFF23</category>
+        <category>Palermo</category>
         
       </item>
     
@@ -349,40 +347,9 @@ Every Fall Fest event is &lt;i&gt;organized and run by the students&lt;/i&gt; on
 &lt;a href=&quot;https://qiskit.org/events/fall-fest/&quot; target=&quot;_blank&quot;&gt;Qiskit Fall Fest&lt;/a&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;The Qiskit Fall Fest is a celebration of quantum technology, research, and collaboration, bringing together quantum enthusiasts, researchers, students, and professionals from around the world. Whether you’re a quantum expert or just starting your journey into the quantum realm, this event is designed for you.&lt;/p&gt;
+
 &lt;p&gt;The events vary from technical hackathons, workshops, meetups to beginner-friendly challenges, all with the goal of helping to grow the local community’s skill set.&lt;/p&gt;
-
-&lt;p&gt;The Qiskit Fall Fest is a celebration of quantum technology, research, and collaboration, bringing together quantum enthusiasts, researchers, students, and professionals from around the world. Whether you’re a quantum expert or just starting your journey into the quantum realm, this event is designed for you.&lt;/p&gt;
-
-&lt;!--more--&gt;
-&lt;p&gt;&lt;em&gt;References:&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/qiskit/introducing-the-qiskit-fall-fest-feb8456b557&quot; target=&quot;_blank&quot;&gt;Introducing the Qiskit Fall Fest, &lt;i&gt;Brian Ingmanson&lt;/i&gt; | Medium&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://qiskit.org/events/fall-fest/&quot;&gt;Qiskit Fall Fest website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
-        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/10/Introducing-the-Qiskit-Fall-Fest.html</link>
-        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/09/10/Introducing-the-Qiskit-Fall-Fest.html</guid>
-        
-        <category>QFF23</category>
-        
-        
-        <category>QFF23</category>
-        
-      </item>
-    
-      <item>
-        <title>Announcing the Qiskit Fall Fest 2023 in Palermo</title>
-        <description>&lt;p&gt;We are thrilled to invite you to the Qiskit Fall Fest 2023 partner event in Palermo, Italy!&lt;/p&gt;
-
-&lt;p&gt;The Qiskit Fall Fest is a celebration of quantum technology, research, and collaboration, bringing together quantum enthusiasts, researchers, students, and professionals from around the world. Whether you’re a quantum expert or just starting your journey into the quantum realm, this event is designed for you.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; November 2023&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;em&gt;Università Degli Studi di Palermo&lt;/em&gt;, Italy&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Event Highlights:&lt;/strong&gt;&lt;/p&gt;
 
@@ -400,10 +367,7 @@ Every Fall Fest event is &lt;i&gt;organized and run by the students&lt;/i&gt; on
     &lt;p&gt;&lt;strong&gt;Networking Opportunities:&lt;/strong&gt; Connect with fellow quantum enthusiasts, researchers, and professionals. Share ideas, collaborate on projects, and expand your quantum network.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Quantum Expo:&lt;/strong&gt; Explore the Quantum Expo, where leading companies and organizations showcase their quantum-related products, services, and initiatives.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Cultural Excursions:&lt;/strong&gt; Immerse yourself in the rich culture of Palermo during guided cultural excursions and explore the city’s historical landmarks.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Cultural Excursions:&lt;/strong&gt; Immerse yourself in the rich culture of the host city and explore the city’s historical landmarks.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -414,29 +378,24 @@ Every Fall Fest event is &lt;i&gt;organized and run by the students&lt;/i&gt; on
   &lt;li&gt;Learn from the best in the quantum industry.&lt;/li&gt;
   &lt;li&gt;Connect with like-minded individuals and expand your quantum network.&lt;/li&gt;
   &lt;li&gt;Participate in the quantum hackathon and sharpen your skills.&lt;/li&gt;
-  &lt;li&gt;Discover the enchanting city of Palermo.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Don’t miss this opportunity to be part of the quantum revolution at Qiskit Fall Fest 2023. Whether you’re a quantum enthusiast, researcher, student, or industry professional, there’s something for everyone.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;&lt;em&gt;References:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/qiskit/introducing-the-qiskit-fall-fest-feb8456b557&quot; target=&quot;_blank&quot;&gt;Introducing the Qiskit Fall Fest, &lt;i&gt;Brian Ingmanson&lt;/i&gt; | Medium&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qiskit.org/events/fall-fest/&quot;&gt;Qiskit Fall Fest website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Mark your calendars for November 10-12, 2023, and join us in Palermo, Italy, for an unforgettable quantum experience!&lt;/p&gt;
-
-&lt;p&gt;Stay tuned for registration details, speaker announcements, and more exciting updates on our official website. Follow us on social media for the latest news and discussions using #QiskitFallFest2023.&lt;/p&gt;
-
-&lt;p&gt;We look forward to welcoming you to Palermo for a quantum celebration like no other!&lt;/p&gt;
-
-&lt;p&gt;For inquiries and sponsorship opportunities, please &lt;a href=&quot;/contact/&quot;&gt;contact us&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;Save the date and prepare to embrace the quantum future at Qiskit Fall Fest 2023!&lt;/p&gt;
 </description>
-        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
-        <link>https://qiskitfallfest23-unipa.github.io//blog/palermo/2023/09/10/Announcing-the-Qiskit-Fall-Fest-2023-in-Palermo.html</link>
-        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/palermo/2023/09/10/Announcing-the-Qiskit-Fall-Fest-2023-in-Palermo.html</guid>
+        <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/10/05/Introducing-the-Qiskit-Fall-Fest.html</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/10/05/Introducing-the-Qiskit-Fall-Fest.html</guid>
         
-        <category>Palermo</category>
+        <category>QFF23</category>
         
         
-        <category>Palermo</category>
+        <category>QFF23</category>
         
       </item>
     
