@@ -14,7 +14,7 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     
-    <link rel="stylesheet" href=" /style.css?v=202311130925">
+    <link rel="stylesheet" href=" /style.css?v=202311131827">
 
     <!-- our project just needs Font Awesome Solid + Brands -->
     <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -136,26 +136,6 @@
                     
 
                     
-                    <!--<a href="#partners" >Partners</a>-->
-
-                    
-                    <li>
-                        <a class="page-scroll"
-                            href="#partners">Partners</a>
-                    </li>
-                    
-
-                    
-                    <!--<a href="#posts" >News</a>-->
-
-                    
-                    <li>
-                        <a class="page-scroll"
-                            href="#posts">News</a>
-                    </li>
-                    
-
-                    
                     <!--<a href="#event" >The event</a>-->
 
                     
@@ -163,6 +143,11 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                             aria-expanded="false">The event <span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-menu-custom " role="menu">
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#partners">Partners</a>
+                            </li>
                             
                             <li>
                                 <a class="page-scroll"
@@ -181,20 +166,45 @@
                             
                             <li>
                                 <a class="page-scroll"
+                                    href="#venue">Venue</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
                                     href="#sponsors">Sponsors</a>
                             </li>
                             
-                            <li>
-                                <a class="page-scroll"
-                                    href="venue/">Venue</a>
-                            </li>
-                            
-                            <li>
-                                <a class="page-scroll"
-                                    href="faq/">FAQ</a>
-                            </li>
-                            
                         </ul>
+                    </li>
+                    
+
+                    
+                    <!--<a href="/blog/" >News</a>-->
+
+                    
+                    <li>
+                        <a class="page-scroll"
+                            href="blog/">News</a>
+                    </li>
+                    
+
+                    
+                    <!--<a href="/faq/" >FAQ</a>-->
+
+                    
+                    <li>
+                        <a class="page-scroll"
+                            href="faq/">FAQ</a>
+                    </li>
+                    
+
+                    
+                    <!--<a href="/registration/" >Register!</a>-->
+
+                    
+                    <li>
+                        <a class="page-scroll"
+                            href="registration/">Register!</a>
                     </li>
                     
 
@@ -428,13 +438,13 @@
                     To correctly fix this, we should upgrade to Bootstrap version >= 4.0.0
                 -->
                 <div class="team-member" style="height: 250px">
-                    <a href="/venue/">
+                    <a href="/#venue">
                         <img src="assets/img/about/venue.png" class="img-responsive img-circle timeline-image"
                             style="max-width: 100px;" alt="">
                     </a>
                     <h4>Venue</h4>
                     <p class="text-muted">Learn more about our event location in detail</p>
-                    <p><a href="/venue/" class="btn-about">View the location</a></p>
+                    <p><a href="/#venue" class="btn-about">View the location</a></p>
                 </div>
             </div>
             
@@ -1179,6 +1189,58 @@
     </div>
 </section>
 
+    <style>
+  /* Style the container */
+  .venue-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1000px; /* Increase the max-width as needed */
+    margin: 0 auto;
+  }
+
+  /* Style the map widget */
+  .venue-map {
+    text-align: left; /* Align the map widget to the left */
+    width: 90%; /* Increase the width as needed */
+    height: 600px; /* Increase the height as needed */
+    margin-bottom: 20px;
+  }
+
+  /* Style the text in between */
+  .venue-text {
+    font-size: 16px;
+    text-align: center; /* Align the text to the center */
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Venue -->
+<section id="venue">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Venue</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="venue-container">
+               <p class="venue-text">
+                        Università degli Studi di Palermo,<br>
+                        Dipartimento di Fisica e Chimica "Emilio Segrè",<br>
+                        <i>via Archirafi, 36 (classroom A)</i>,<br>
+                        Palermo (Italy)
+                    </p>
+                    <div class="venue-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.2858770459243!2d13.373395!3d38.1102831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e591799701f1%3A0xfd5503c8c4b89d3d!2sVia%20Archirafi%20subcampus.%2C%20Via%20Archirafi%2C%2036%2C%2090123%20Palermo%20PA!5e0!3m2!1sen!2sit!4v1699356608955!5m2!1sen!2sit" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> 
+            </div>
+        </div>
+    </div>
+</section>
     <!-- Sponsors -->
 <section id="sponsors">
     <div class="container">
@@ -1220,7 +1282,7 @@
 
 
 
-
+    
     <!--contacts.html-->
 </main>
   <footer>
