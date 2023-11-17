@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qiskit Fall Fest 2023 @ Palermo, Italy</title>
-    <description>Let&apos;s discover Quantum Computing!</description>
+    <description>&quot;Let\&apos;s discover Quantum Computing!&quot;</description>
     <link>https://qiskitfallfest23-unipa.github.io//</link>
     <atom:link href="https://qiskitfallfest23-unipa.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Nov 2023 17:45:15 +0000</pubDate>
-    <lastBuildDate>Fri, 17 Nov 2023 17:45:15 +0000</lastBuildDate>
+    <pubDate>Fri, 17 Nov 2023 18:06:32 +0000</pubDate>
+    <lastBuildDate>Fri, 17 Nov 2023 18:06:32 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
