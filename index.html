@@ -14,7 +14,7 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     
-    <link rel="stylesheet" href=" /style.css?v=202311171806">
+    <link rel="stylesheet" href=" /style.css?v=202311171921">
 
     <!-- our project just needs Font Awesome Solid + Brands -->
     <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -167,6 +167,11 @@
                             <li>
                                 <a class="page-scroll"
                                     href="#venue">Venue</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#manifest">Manifest</a>
                             </li>
                             
                             <li>
@@ -1254,6 +1259,93 @@
             </div>
         </div>
 </section>
+    <!-- Poster section -->
+
+<style>
+    /* Custom CSS for horizontal centering of the modal */
+    .modal-centered {
+        text-align: center;
+    }
+
+    .modal-centered:before {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -4px;
+        /* Adjusts for spacing */
+    }
+
+    .modal-dialog-centered {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    /* Custom CSS to center the image inside the modal */
+    .modal-body img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    figcaption {
+        text-align: center;
+        background-color: black;
+        -webkit-text-size-adjust: 100%;
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 7px 0;
+        font-size: 12px;
+        line-height: 1.2;
+        box-sizing: border-box;
+    }
+</style>
+
+
+<!-- Poster section -->
+<section id="poster" class="bg-light-gray">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Manifest</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12" style="text-align: center;">
+
+                <figure style="width: 232px; display: inline-block;">
+                    <a href="#" data-toggle="modal" data-target="#imageModal">
+                        <img src="/assets/img/manifest/manifest_web_h1200.jpg" alt="manifest"
+                            width="232" height="325" class="img-responsive" style="display: inline-block;">
+                    </a>
+                    <figcaption>Manifest - click to zoom</figcaption>
+                </figure>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body modal-centered">
+                                <img src="/assets/img/manifest/manifest_web_h1200.jpg"
+                                    alt="Enlarged Image" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>
     <!-- Sponsors -->
 <section id="sponsors">
     <div class="container">
@@ -1302,7 +1394,7 @@
             
         </div>
     </div>
-</section>    
+</section>
     <!--contacts.html-->
 </main>
   <footer>
