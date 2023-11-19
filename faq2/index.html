@@ -15,11 +15,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Blog</title>
+    <title>FAQ</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content=""Let\'s discover Quantum Computing!"">
-    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//blog/">
+    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//faq2/">
 
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -193,7 +193,7 @@
                     
 
                     
-                    <!--<a href="/blog/" style="color: red;" >News</a>-->
+                    <!--<a href="/blog/" >News</a>-->
 
                     
                     <li>
@@ -235,65 +235,187 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="page-heading">Blog</h2>
+                        <h2 class="page-heading">FAQ</h2>
                         <h3 class="page-subheading text-muted"></h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12" style="text-align: justify; word-break: break-word">
-                        
-<h3>&#35; QFF23</h3>
-<ul>
-  
-  
-  <li><a href="/blog/qff23/2023/10/28/Why-to-partecipate.html">Why to partecipate</a></li>
-  
-  <li><a href="/blog/qff23/2023/10/11/Qiskit.html">First steps with Qiskit</a></li>
-  
-  <li><a href="/blog/qff23/2023/10/05/Introducing-the-Qiskit-Fall-Fest.html">Introducing the Qiskit Fall Fest</a></li>
-  
-</ul>
-
-<h3>&#35; Palermo</h3>
-<ul>
-  
-  
-  <li><a href="/blog/palermo/2023/10/10/Announcing-the-Qiskit-Fall-Fest-2023-in-Palermo.html">Announcing the Qiskit Fall Fest 2023 in Palermo</a></li>
-  
-</ul>
+                        <style>
+    /* Style the FAQ section */
+    .faq-section {
+        background-color: #f7f7f7;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
 
 
-<hr>
+    /* Style FAQ list items */
+    .faq-item {
+        margin-bottom: 20px;
+    }
 
-<h3>All posts</h3>
-<ul class="posts">
-  
-  
-  <li>
-    <span class="post-date">Oct 28, 2023</span>
-    <a class="post-link" href="/blog/qff23/2023/10/28/Why-to-partecipate.html">Why to partecipate</a>
-  </li>
-  
-  <li>
-    <span class="post-date">Oct 11, 2023</span>
-    <a class="post-link" href="/blog/qff23/2023/10/11/Qiskit.html">First steps with Qiskit</a>
-  </li>
-  
-  <li>
-    <span class="post-date">Oct 10, 2023</span>
-    <a class="post-link" href="/blog/palermo/2023/10/10/Announcing-the-Qiskit-Fall-Fest-2023-in-Palermo.html">Announcing the Qiskit Fall Fest 2023 in Palermo</a>
-  </li>
-  
-  <li>
-    <span class="post-date">Oct 5, 2023</span>
-    <a class="post-link" href="/blog/qff23/2023/10/05/Introducing-the-Qiskit-Fall-Fest.html">Introducing the Qiskit Fall Fest</a>
-  </li>
-  
-</ul>
+    /* Style FAQ question, answer */
+    .faq-answer,
+    .faq-question {
+        font-size: 18px;
+        color: #666;
+    }
 
-<hr>
+    .faq-question {
+        font-weight: bold;
+    }
 
-<p class="rss-subscribe">subscribe via <a href=" /feed.xml">RSS</a></p>
+    /* Style the curved background shape */
+    .faq-shape {
+        background-color: #387cc4;
+        /* Choose your desired color */
+        color: white;
+        padding: 10px 15px;
+        border-radius: 20px;
+        /* Smooth rounded corners */
+        font-size: 24px;
+        margin-bottom: 20px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .faq-shape::before {
+        content: '';
+        background-color: inherit;
+        width: 100%;
+        height: 40px;
+        border-radius: 0 0 20px 20px;
+        /* Smooth rounded corners for the top */
+        position: absolute;
+        top: -20px;
+        left: 0;
+        z-index: -1;
+    }
+
+    @media(max-width:768px) {
+        .faq-section {
+            padding: 20px;
+        }
+
+        .faq-answer,
+        .faq-question {
+            font-size: 14px;
+        }
+    }
+</style>
+
+<div class="faq-section">
+    <ol style="padding-left: 20px">
+        
+        <li class="faq-item">
+            <p class="faq-question">✔️ How to register?</p>
+            
+            <p class="faq-answer">The event is open to everyone, you can register <a href="/registration/">here</a>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">👨‍🏫 What is the expected level of quantum computing knowledge for attendees?</p>
+            
+            <p class="faq-answer">No prior knowledge of QC is required, but surely already having basics of Linear Algebra make it easy to understand the topics. If you don't already know the axioms of quantum mechanics, no problem, we will explain them briefly!</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🎥🗼 Can I participate remotely or watch recorded sessions if I can't attend in person?</p>
+            
+            <p class="faq-answer">Sure, the event will also be broadcast and, maybe, recorded. Further information on remote participation will be given after registration. <em>We strongly encourage in-person attendance for a more exciting experience and greater networking opportunities!</em>"</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🎒 What should I bring or prepare before attending the event?</p>
+            
+            <p class="faq-answer">Your 💻 personal laptop (with 🔌🔋power supply) and a lot of 🔦curiosity. Furthermore, we will send you some material to view before the event, so as to better prepare you for this exciting experience!</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">👨‍💻 Will there be hands-on sessions?</p>
+            
+            <p class="faq-answer">Yes, there will be. You can find the introductory materials for these sessions <a href="https://drive.google.com/drive/folders/1DvhPVAa0CJuzW1uQSyje9DTr1bqkY-EP?usp=drive_link">here</a>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🤔🎤 Will there be a Q&A session or a way to ask questions during the event?</p>
+            
+            <p class="faq-answer">Sure, you can ask your question during the Event at our Speakers. Moreover, you can contact us <a href="/contacts/">here</a>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🎓 Will participating students be awarded CFUs?</p>
+            
+            <p class="faq-answer">At the moment, credits will certainly be awarded to students of `Scienze Fisiche` and `Fisica` at the University of Palermo. In any case, you will be issued an attendance certificate with which you can request credit recognition from your degree course coordinator.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">📢 How can I stay updated on event announcements and news?</p>
+            
+            <p class="faq-answer">You can follow us on <a href="https://linktr.ee/qiskit_fall_fest_palermo ">our socials</a>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🛬 How to get to the Venue from the Palermo Airport?</p>
+            
+            
+            
+            <p class="faq-answer">You have several transportation options:</p>
+            
+            <p class="faq-answer"><ul style="list-style-type:disc"><li>🚌 the airport buses depart daily between 04:00 - 22:30 at 30-minute intervals (more info <a href="https://www.prestiaecomande.it/">here</a>).</li><li>🚄 the regional train from the Airport to the Central Station leaves at 30-minute intervals between 05:15 - 00:25 daily.</li><li>🚗 you can take the A29 motorway in the direction of Palermo by car.</li><li>🚕 taxis are available at the International Arrivals of the Airport.</li></ul></p>
+            
+            <p class="faq-answer"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> If you wish to reach us directly, we suggest you to take the train and get off at the stop 🚏 `Palermo Central`. You will be at 300 meters away from the <a target="_blank" href="/#venue">Event venue</a>.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">🙋🏻‍♂️🙋 Can I bring guests or colleagues with me to the event?</p>
+            
+            <p class="faq-answer">Of course, guests are allowed, but make sure they are also registered for the event as places in-presence are limited.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">📝 How to leave you my feedback?</p>
+            
+            <p class="faq-answer">We will send you a survey after the event. We would love to hear your feedback and suggestions.</p>
+            
+            
+        </li>
+        
+        <li class="faq-item">
+            <p class="faq-question">#️⃣ What is the event's hashtag for social media sharing?</p>
+            
+            <p class="faq-answer">The official hashtag of the Event is <span style="color: #2d7dc7;">#qiskitfallfest23palermo</span>.</p>
+            
+            
+        </li>
+        
+    </ol>
+    <p class="faq-answer">❓ For further enquiries, kindly submit your question via the <a href=" /contacts/">Contact us</a> page.</p>
+    <p style="text-align: right">Last update: Nov 11, 2023</p>
+</div>
                     </div>
                 </div>
             </div>
