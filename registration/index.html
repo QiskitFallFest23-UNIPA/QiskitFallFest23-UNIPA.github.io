@@ -24,7 +24,7 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     
-    <link rel="stylesheet" href=" /style.css?v=202311192303">
+    <link rel="stylesheet" href=" /style.css?v=202311201045">
 
     <!-- our project just needs Font Awesome Solid + Brands -->
     <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -261,10 +261,22 @@
     }
 </style>
 
-<p>If you have difficulty viewing the form, click <a href="https://airtable.com/appsthDHGqIqQZPzl/shrtJhCaMflzl91Q4" title="Registration form">here!</a></p>
+<p>If you have difficulty viewing the form, click <a href="https://airtable.com/appsthDHGqIqQZPzl/shrtJhCaMflzl91Q4"
+        title="Registration form">here!</a></p>
 <div class="form-container">
-    <iframe class="airtable-embed" src="https://airtable.com/embed/appsthDHGqIqQZPzl/shrtJhCaMflzl91Q4?backgroundColor=cyan" frameborder="0" onmousewheel="" width="700" height="100%" style="background: transparent; border: 1px solid #ccc;" data-cmp-ab="2" data-cmp-info="8" title="registration"></iframe>
+    <div id="loading-message">I'm loading...</div>
+    <iframe id="registration-iframe" class="airtable-embed"
+        src="https://airtable.com/embed/appsthDHGqIqQZPzl/shrtJhCaMflzl91Q4?backgroundColor=cyan" frameborder="0"
+        onmousewheel="" width="700" height="100%" style="background: transparent; border: 1px solid #ccc;"
+        data-cmp-ab="2" data-cmp-info="8" title="registration"></iframe>
 </div>
+<script>
+    // JavaScript to hide the loading message once the iframe has loaded
+    document.getElementById('registration-iframe').onload = function () {
+        document.getElementById('loading-message').style.display = 'none';
+        document.getElementById('registration-iframe').style.display = 'block';
+    };
+</script>
                     </div>
                 </div>
             </div>
