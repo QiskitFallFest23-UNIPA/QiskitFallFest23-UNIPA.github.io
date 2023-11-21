@@ -5,9 +5,134 @@
     <description>Let&apos;s discover quantum computing!</description>
     <link>https://qiskitfallfest23-unipa.github.io//</link>
     <atom:link href="https://qiskitfallfest23-unipa.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 21 Nov 2023 07:12:07 +0000</pubDate>
-    <lastBuildDate>Tue, 21 Nov 2023 07:12:07 +0000</lastBuildDate>
+    <pubDate>Tue, 21 Nov 2023 16:04:09 +0000</pubDate>
+    <lastBuildDate>Tue, 21 Nov 2023 16:04:09 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Credits-for-UNIPA-students</title>
+        <description>&lt;style&gt;
+    #cfu-table th {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #cfu-table td {
+        text-align: left;
+    }
+
+    #cfu-table caption {
+        caption-side: bottom;
+    }
+
+    #cfu-table th,
+    #cfu-table td {
+        border: 2px solid #2d7dc7;
+    }
+
+    #cfu-table .event-title {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    #cfu-table .day-title {
+        font-size: large;
+        background-color: #e8f4f8;
+        color: #333;
+    }
+
+    #cfu-table caption {
+        caption-side: bottom;
+    }
+
+    .table-responsive&gt;.table tr&gt;th,
+    .table-responsive&gt;.table tr&gt;td {
+        white-space: unset !important;
+    }
+
+    #cfu-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #cfu-table th,
+    #cfu-table td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: justify;
+        vertical-align: middle;
+    }
+
+    table#cfu-table th.course,
+    table#cfu-table td.course {
+        text-align: left !important;
+    }
+&lt;/style&gt;
+
+&lt;div class=&quot;table-responsive&quot;&gt;
+    &lt;table id=&quot;cfu-table&quot; class=&quot;table table-bordered&quot;&gt;
+        &lt;caption&gt;
+            last update: 21 november 2023
+        &lt;/caption&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th class=&quot;col-sm-4 day-title course&quot;&gt;Course&lt;/th&gt;
+                &lt;th class=&quot;col-sm-8 day-title&quot;&gt;Modality&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+            
+            &lt;tr&gt;
+                &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/difc/cds/scienzefisiche2124&quot;&gt;2124 - SCIENZE FISICHE (L)&lt;/a&gt;&lt;/td&gt;
+                
+                &lt;td  rowspan=&quot;2&quot;&gt;
+                    each hour of participation contributes towards reaching the 25 hours of other training activities necessary for the recognition of 1 CFU.
+                &lt;/td&gt;
+                
+            &lt;/tr&gt;
+            
+            &lt;tr&gt;
+                &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/difc/cds/fisica2020&quot;&gt;2020 - FISICA (LM)&lt;/a&gt;&lt;/td&gt;
+                
+            &lt;/tr&gt;
+            
+            &lt;tr&gt;
+                &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/informatica2086&quot;&gt;2086 - INFORMATICA (L)&lt;/a&gt;&lt;/td&gt;
+                
+                &lt;td  rowspan=&quot;4&quot;&gt;
+                    each day of the event will contribute to the attribution of 1/3 of CFU, for a total of 1 CFU if the student participated in all three days.
+                &lt;/td&gt;
+                
+            &lt;/tr&gt;
+            
+            &lt;tr&gt;
+                &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/intelligenzaartificiale2291&quot;&gt;2291 - INTELLIGENZA ARTIFICIALE (L)&lt;/a&gt;&lt;/td&gt;
+                
+            &lt;/tr&gt;
+            
+            &lt;tr&gt;
+                &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/informatica2010&quot;&gt;2010 - INFORMATICA (LM)&lt;/a&gt;&lt;/td&gt;
+                
+            &lt;/tr&gt;
+            
+            &lt;tr&gt;
+                &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/dataalgorithmsandmachineintelligence2270&quot;&gt;2270 - DATA, ALGORITHMS, AND MACHINE INTELLIGENCE (LM)&lt;/a&gt;&lt;/td&gt;
+                
+            &lt;/tr&gt;
+            
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;</description>
+        <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+        <link>https://qiskitfallfest23-unipa.github.io//cfu-unipa/</link>
+        <guid isPermaLink="true">https://qiskitfallfest23-unipa.github.io//cfu-unipa/</guid>
+        
+        <category>UNIPA</category>
+        
+        
+        <category>UNIPA</category>
+        
+      </item>
     
       <item>
         <title>Why to partecipate</title>
