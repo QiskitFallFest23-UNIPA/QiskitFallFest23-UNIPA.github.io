@@ -10,48 +10,48 @@
  */
 var cbpAnimatedHeader = (function () {
 
-	var docElem = document.documentElement,
-		header = document.querySelector('#navbarHome.navbar-fixed-top'),
-		didScroll = false,
-		changeHeaderOn = 100;
+    var docElem = document.documentElement,
+        header = document.querySelector('#navbarHome.navbar-fixed-top'),
+        didScroll = false,
+        changeHeaderOn = 100;
 
-	var dropdown = document.querySelector('.dropdown-menu.dropdown-menu-custom');
+    var dropdown = document.querySelector('.dropdown-menu.dropdown-menu-custom');
 
-	function init() {
-		window.addEventListener('scroll', function (event) {
-			if (!didScroll) {
-				didScroll = true;
-				setTimeout(scrollPage, 250);
-			}
-		}, false);
-	}
+    function init() {
+        window.addEventListener('scroll', function (event) {
+            if (!didScroll) {
+                didScroll = true;
+                setTimeout(scrollPage, 250);
+            }
+        }, false);
+    }
 
-	function scrollPage() {
-		var sy = scrollY();
-		if (sy >= changeHeaderOn) {
-			if (header !== null) {
-				classie.add(header, 'navbar-shrink');
-			}
-			if (dropdown !== null) {
-				classie.add(dropdown, 'dropdown-menu-custom-shrink');
-			}
-		}
-		else {
+    function scrollPage() {
+        var sy = scrollY();
+        if (sy >= changeHeaderOn) {
+            if (header !== null) {
+                classie.add(header, 'navbar-shrink');
+            }
+            if (dropdown !== null) {
+                classie.add(dropdown, 'dropdown-menu-custom-shrink');
+            }
+        }
+        else {
 
-			if (header !== null && header.classList.contains('navbar-shrink')) {
-				classie.remove(header, 'navbar-shrink');
-			}
-			if (dropdown !== null && dropdown.classList.contains('dropdown-menu-custom-shrink')) {
-				classie.remove(dropdown, 'dropdown-menu-custom-shrink');
-			}
-		}
-		didScroll = false;
-	}
+            if (header !== null && header.classList.contains('navbar-shrink')) {
+                classie.remove(header, 'navbar-shrink');
+            }
+            if (dropdown !== null && dropdown.classList.contains('dropdown-menu-custom-shrink')) {
+                classie.remove(dropdown, 'dropdown-menu-custom-shrink');
+            }
+        }
+        didScroll = false;
+    }
 
-	function scrollY() {
-		return window.pageYOffset || docElem.scrollTop;
-	}
+    function scrollY() {
+        return window.pageYOffset || docElem.scrollTop;
+    }
 
-	init();
+    init();
 
 })();

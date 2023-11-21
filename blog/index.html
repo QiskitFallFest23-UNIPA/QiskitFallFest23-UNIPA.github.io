@@ -43,7 +43,7 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     
-    <link rel="stylesheet" href=" /style.css?v=202311202034">
+    <link rel="stylesheet" href=" /style.css?v=202311210651">
 
     <!-- our project just needs Font Awesome Solid + Brands -->
     <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -411,5 +411,14 @@
 </script>
 
 </body>
+
+<script>
+    // work arounf to bypass the issue of the dropdown menu not shrinking when the page is not the home page // FIXME: find a better solution
+    var dropdown = document.querySelector('.dropdown-menu.dropdown-menu-custom');
+    if (dropdown !== null && !dropdown.classList.contains('dropdown-menu-custom-shrink')) {
+        classie.add(dropdown, 'dropdown-menu-custom-shrink');
+    }
+
+</script>
 
 </html>
