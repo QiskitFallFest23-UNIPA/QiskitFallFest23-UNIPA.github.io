@@ -5,12 +5,12 @@
     <description>Let&apos;s discover quantum computing!</description>
     <link>https://qiskitfallfest23-unipa.github.io//</link>
     <atom:link href="https://qiskitfallfest23-unipa.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 21 Nov 2023 16:30:22 +0000</pubDate>
-    <lastBuildDate>Tue, 21 Nov 2023 16:30:22 +0000</lastBuildDate>
+    <pubDate>Tue, 21 Nov 2023 16:37:36 +0000</pubDate>
+    <lastBuildDate>Tue, 21 Nov 2023 16:37:36 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
-        <title>Credits-for-UNIPA-students</title>
+        <title>Credits for UNIPA students</title>
         <description>&lt;style&gt;
     #cfu-table th {
         text-align: center;
@@ -93,7 +93,7 @@
                 &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/difc/cds/scienzefisiche2124&quot;&gt;2124 - SCIENZE FISICHE (L)&lt;/a&gt;&lt;/td&gt;
                 
                 &lt;td  rowspan=&quot;2&quot;&gt;
-                    each hour of participation contributes towards reaching the 25 hours of other training activities necessary for the recognition of 1 CFU.
+                    Each hour of participation contributes towards reaching the 25 hours of other training activities necessary for the recognition of 1 CFU.
                 &lt;/td&gt;
                 
             &lt;/tr&gt;
@@ -107,18 +107,18 @@
                 &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/informatica2086&quot;&gt;2086 - INFORMATICA (L)&lt;/a&gt;&lt;/td&gt;
                 
                 &lt;td  rowspan=&quot;4&quot;&gt;
-                    each day of the event will contribute to the attribution of 1/3 of CFU, for a total of 1 CFU if the student participated in all three days.
+                    Each day of the event will contribute to the attribution of 1/3 of CFU, for a total of 1 CFU if the student participated in all three days.
                 &lt;/td&gt;
                 
             &lt;/tr&gt;
             
             &lt;tr&gt;
-                &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/intelligenzaartificiale2291&quot;&gt;2291 - INTELLIGENZA ARTIFICIALE (L)&lt;/a&gt;&lt;/td&gt;
+                &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/informatica2010&quot;&gt;2010 - INFORMATICA (LM)&lt;/a&gt;&lt;/td&gt;
                 
             &lt;/tr&gt;
             
             &lt;tr&gt;
-                &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/informatica2010&quot;&gt;2010 - INFORMATICA (LM)&lt;/a&gt;&lt;/td&gt;
+                &lt;td class=&quot;course&quot;&gt;&lt;a href=&quot;https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/intelligenzaartificiale2291&quot;&gt;2291 - INTELLIGENZA ARTIFICIALE (L)&lt;/a&gt;&lt;/td&gt;
                 
             &lt;/tr&gt;
             
