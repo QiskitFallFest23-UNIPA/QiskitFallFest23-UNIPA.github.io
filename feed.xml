@@ -5,8 +5,8 @@
     <description>Let&apos;s discover quantum computing!</description>
     <link>https://qiskitfallfest23-unipa.github.io//</link>
     <atom:link href="https://qiskitfallfest23-unipa.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 26 Nov 2023 18:44:41 +0000</pubDate>
-    <lastBuildDate>Sun, 26 Nov 2023 18:44:41 +0000</lastBuildDate>
+    <pubDate>Sun, 26 Nov 2023 18:59:04 +0000</pubDate>
+    <lastBuildDate>Sun, 26 Nov 2023 18:59:04 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -439,15 +439,24 @@ the organizers&lt;/p&gt;
     }
 &lt;/style&gt;
 
-&lt;h2 id=&quot;qiskit-documentation&quot;&gt;Qiskit documentation&lt;/h2&gt;
+&lt;h2 id=&quot;ibm-quantum-composer&quot;&gt;IBM Quantum Composer&lt;/h2&gt;
+&lt;p&gt;To facilitate your first approach to quantum computing, we will use the &lt;a href=&quot;https://quantum-computing.ibm.com/composer&quot; target=&quot;_blank&quot;&gt;IBM Quantum Composer&lt;/a&gt;. Visit the page!&lt;/p&gt;
 
-&lt;p&gt;Prepare for the Fall Fest by reviewing the &lt;a href=&quot;https://qiskit.org/documentation/&quot; target=&quot;_blank&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can sign in&lt;/p&gt;
 
-&lt;p&gt;Starting on November 29, 2023, Qiskit Documentation will only live on the &lt;a href=&quot;https://docs.quantum-computing.ibm.com/&quot; target=&quot;_blank&quot;&gt;IBM Quantum Documentation platform&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;using your &lt;i&gt;name.surnameXX@community.unipa.it&lt;/i&gt; email address (UNIPA users) or your private gmail account, by clicking on the symbol &lt;b&gt;G&lt;/b&gt;.&lt;/li&gt;
+  &lt;li&gt;or using your LinkedIn account&lt;/li&gt;
+  &lt;li&gt;or creating a new IBMid account using an email address from another provider.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;start-on-the-cloud-&quot;&gt;Start on the cloud !&lt;/h2&gt;
 
-&lt;p&gt;To facilitate your first approach to quantum computing, we will use jupyter notebooks on the cloud &lt;a href=&quot;https://quantum-computing.ibm.com/&quot; target=&quot;_blank&quot;&gt;IBM Quantum Lab&lt;/a&gt;. We invite you to follow Brian Ingmanson’s instructions illustrated in the following video&lt;/p&gt;
+&lt;p&gt;To facilitate your first approach with Qiskit (maybe also with Python), we will use jupyter notebooks on the cloud &lt;a href=&quot;https://quantum-computing.ibm.com/lab&quot; target=&quot;_blank&quot;&gt;IBM Quantum Lab&lt;/a&gt;. Visit the page!&lt;/p&gt;
+
+&lt;p&gt;You can sign in using the account you created for the IBM Quantum Composer above.&lt;/p&gt;
+
+&lt;p&gt;We invite you to follow Brian Ingmanson’s instructions illustrated in the following video&lt;/p&gt;
 &lt;div class=&quot;centered-container&quot;&gt;
 &lt;div class=&quot;video-container&quot;&gt;
 &lt;iframe width=&quot;640&quot; height=&quot;auto&quot; src=&quot;https://www.youtube.com/embed/V3-RI7kD0p4&quot; title=&quot;Quick Setup Guide: IBM Quantum Learning platform and jupyter notebook setup&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -457,6 +466,12 @@ the organizers&lt;/p&gt;
 &lt;h2 id=&quot;optional-installing-qiskit-on-your-pc&quot;&gt;(Optional) Installing Qiskit on your PC&lt;/h2&gt;
 
 &lt;p&gt;If you feel more confident with Python, you could also try installing the necessary packages on your PC (see how &lt;a href=&quot;https://qiskit.org/documentation/getting_started.html#installation&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;qiskit-documentation&quot;&gt;Qiskit documentation&lt;/h2&gt;
+
+&lt;p&gt;Prepare for the Fall Fest by reviewing the &lt;a href=&quot;https://qiskit.org/documentation/&quot; target=&quot;_blank&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Starting on November 29, 2023, Qiskit Documentation will only live on the &lt;a href=&quot;https://docs.quantum-computing.ibm.com/&quot; target=&quot;_blank&quot;&gt;IBM Quantum Documentation platform&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
