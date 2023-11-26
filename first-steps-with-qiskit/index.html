@@ -17,7 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <meta name="viewport" content="width=device-width">    
-    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//blog/qff23/2023/10/11/Qiskit.html">
+    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//first-steps-with-qiskit/">
 
     <!-- Primary Meta Tags -->
     <title>First steps with Qiskit|Qiskit Fall Fest 2023 @ Palermo, Italy</title>
@@ -43,7 +43,7 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     
-    <link rel="stylesheet" href=" /style.css?v=202311260721">
+    <link rel="stylesheet" href=" /style.css?v=202311261844">
 
     <!-- our project just needs Font Awesome Solid + Brands -->
     <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -283,7 +283,49 @@
 
 
 <div class="post-content">
-    <p>Prepare for the Fall Fest by reviewing the <a href="https://qiskit.org/documentation/" target="_blank">documentation</a> and <a href="https://qiskit.org/documentation/getting_started.html#installation" target="_blank">installing</a> Qiskit.</p>
+    <style>
+    .centered-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .video-container {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+      width: 80%; /* Adjusted width */
+      max-width: 640px; /* Optional: Set a maximum width for the video */
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+</style>
+
+<h2 id="qiskit-documentation">Qiskit documentation</h2>
+
+<p>Prepare for the Fall Fest by reviewing the <a href="https://qiskit.org/documentation/" target="_blank">documentation</a>.</p>
+
+<p>Starting on November 29, 2023, Qiskit Documentation will only live on the <a href="https://docs.quantum-computing.ibm.com/" target="_blank">IBM Quantum Documentation platform</a>.</p>
+
+<h2 id="start-on-the-cloud-">Start on the cloud !</h2>
+
+<p>To facilitate your first approach to quantum computing, we will use jupyter notebooks on the cloud <a href="https://quantum-computing.ibm.com/" target="_blank">IBM Quantum Lab</a>. We invite you to follow Brian Ingmanson’s instructions illustrated in the following video</p>
+<div class="centered-container">
+<div class="video-container">
+<iframe width="640" height="auto" src="https://www.youtube.com/embed/V3-RI7kD0p4" title="Quick Setup Guide: IBM Quantum Learning platform and jupyter notebook setup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<h2 id="optional-installing-qiskit-on-your-pc">(Optional) Installing Qiskit on your PC</h2>
+
+<p>If you feel more confident with Python, you could also try installing the necessary packages on your PC (see how <a href="https://qiskit.org/documentation/getting_started.html#installation" target="_blank">here</a>).</p>
 
 
 </div>
