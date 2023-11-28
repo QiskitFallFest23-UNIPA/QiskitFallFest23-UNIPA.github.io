@@ -1002,3 +1002,10 @@ header.theme-1 {
     }
     
 }
+
+/* Media query for screens less than 420px */
+@media screen and (max-width: 420px) {
+    section h2.section-heading {
+        font-size: 22px !important; /* Adjust the font size for screens less than 420px */
+    }
+}
