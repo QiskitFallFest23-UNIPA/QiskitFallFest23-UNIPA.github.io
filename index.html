@@ -33,7 +33,7 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     
-    <link rel="stylesheet" href=" /style.css?v=202312120923">
+    <link rel="stylesheet" href=" /style.css?v=202312122037">
 
     <!-- our project just needs Font Awesome Solid + Brands -->
     <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -1386,12 +1386,12 @@
         <div class="row">
             <div class="col-lg-12" style="text-align: center;">
 
-                <figure style="width: 232px; display: inline-block;">
+                <figure class="img-shadow" style="width: 232px; display: inline-block;">
                     <a href="#" data-toggle="modal" data-target="#posterModal">
                         <img src="/assets/img/poster/poster_web_h1200.jpg" alt="poster"
                             width="232" height="325" class="img-responsive" style="display: inline-block;">
                     </a>
-                    <figcaption>Poster - click to zoom</figcaption>
+                    <figcaption>Poster - 🔎</figcaption>
                 </figure>
 
 
@@ -1411,6 +1411,234 @@
 
         </div>
     </div>
+    </div>
+</section>
+    <style>
+
+    .modal-dialog.modal-dialog-gallery {
+        max-width: 900px;
+    }
+
+    .modal-gallery .modal-content {
+        margin: auto;
+    }
+
+    .modal-gallery.modal {
+        align-items: center;
+        justify-content: center;
+        transform: translate(0%, 5%);
+    }
+
+    .modal-gallery p.text-modal-caption {
+        text-align: center;
+        color: black;
+    }
+
+    .gallery.col-xs-6 {
+        /*width: 50%;*/
+        height: 33.33333333% !important;
+    }
+
+    @media (min-width: 768px) {
+        .gallery.col-sm-4 {
+            /*width: 33.33333333%;*/
+            height: 22.22222222% !important;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .gallery.col-md-4 {
+            /*width: 33.33333333%;*/
+            height: 22.22222222% !important;
+        }
+    }
+</style>
+
+<style>
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .grid>[class*='col-'] {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .product-tile-inner {
+        position: relative;
+    }
+
+    .product-tile-inner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .product-tile-inner .btn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        opacity: .85;
+        overflow-x: hidden;
+    }
+
+    .gallery-button {
+        text-transform: none;
+        font-weight: 400;
+        background-color: #0000007d;
+        border: none;
+        font-size: small;
+    }
+</style>
+
+<!-- Gallery Section -->
+<section id="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Gallery</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="grid">
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Article published by the &lt;a href=&quot;https://gds.it/&quot; target=&quot;blank&quot;&gt;Giornale di Sicilia&lt;/a&gt; on 5 December 2023. We thank the GdS editorial team!">
+
+                    <img src="assets/img/gallery/20231205_article_gds.jpg">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Newspaper article on Giornale di Sicilia</div>
+
+                </div>
+            </div>
+
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="The organizing committee and some of the speakers. We truly thank the professors for their scientific contribution. We want to thank the Department of Physics and Chemistry &quot;Emilio Segrè&quot;, in the person of its Director, professor Palma, for hosting and making the event possible.From left to right: Alessandro Catalano, Mauro Paternostro, Alberto Miserendino, Gioacchino Massimo Palma, Gabriele Lo Cascio. ">
+
+                    <img src="assets/img/gallery/DSC_6931_rit.JPG">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Organizing Committee and some speakers</div>
+
+                </div>
+            </div>
+
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Detail of the monitor of one of the participants during a practical session of quantum programming with Qiskit.">
+
+                    <img src="assets/img/gallery/DSC_6895.JPG">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Monitor screen of a partecipant</div>
+
+                </div>
+            </div>
+
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Detail of the notes of one of the participants during a theoretical session.">
+
+                    <img src="assets/img/gallery/DSC_6854_rit.JPG">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Notes</div>
+
+                </div>
+            </div>
+
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="The organizing committee and prof. Grazia Cottone. We sincerely thank the professor for her great collaboration and support during the preparation and carrying out of the event. From left to right: Alessandro Catalano, Alberto Miserendino, Grazia Cottone, Gabriele Lo Cascio.">
+
+                    <img src="assets/img/gallery/DSC_6933_rit.JPG">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Organizing Committee and prof. Grazia Cottone</div>
+
+                </div>
+            </div>
+
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Detail of the monitor of one of the participants during a practical session of quantum programming with Qiskit.">
+
+                    <img src="assets/img/gallery/DSC_6895.JPG">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Monitor screen of a partecipant</div>
+
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="col-lg-12" style="text-align: center;">
+            <!-- Modal -->
+            <div class="modal modal-gallery fade" id="gallery-modal" tabindex="-1" role="dialog"
+                aria-labelledby="gallery-modal-label" aria-hidden="true">
+                <div class="modal-dialog  modal-lg modal-md modal-dialog-gallery modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body modal-centered">
+                            <img class="img-responsive" src="" alt="zoomed img">
+                            <p class="text-modal-caption"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var galleryModal = document.getElementById('gallery-modal');
+
+            document.addEventListener('DOMContentLoaded', function () {
+                // Attach click event to buttons with class 'open-modal-btn' within a '.gallery'
+                var buttons = document.querySelectorAll('.gallery-button.open-modal-btn');
+
+                // Add click event listener to each button
+                buttons.forEach(function (button) {
+                    button.addEventListener('click', function (event) {
+                        // Check if the clicked element has the class 'open-modal-btn'
+                        //if (event.target.classList.contains('open-modal-btn')) {
+
+                        // Retrieve the src attribute
+                        var elemTarget = event.target.closest(".product-tile-inner")
+
+                        var imgSrc = elemTarget.querySelector('img').getAttribute("src");
+
+                        var caption = elemTarget.getAttribute("data-caption");
+
+                        // Modify the src attribute of the modal image
+                        galleryModal.querySelector('img').setAttribute('src', imgSrc);
+
+                        galleryModal.querySelector('p.text-modal-caption').innerHTML = caption.replace(/&quot;/g, '"'); // =YAML.parse(caption);
+                        
+
+                        // Show the modal using the dynamically constructed data-target
+                        galleryModal.style.display = 'block';
+
+                        //remove class fade
+                        galleryModal.classList.remove('fade');
+                        //}
+                    });
+                });
+
+            });
+
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == galleryModal) {
+                    galleryModal.style.display = "none";
+
+                    //add class fade
+                    galleryModal.classList.add('fade');
+                }
+            }
+
+
+        </script>
+
     </div>
 </section>
     <!-- Collaborators Section -->
