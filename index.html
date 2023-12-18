@@ -33,7 +33,7 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     
-    <link rel="stylesheet" href=" /style.css?v=202312122037">
+    <link rel="stylesheet" href=" /style.css?v=202312181027">
 
     <!-- our project just needs Font Awesome Solid + Brands -->
     <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -192,6 +192,11 @@
                             <li>
                                 <a class="page-scroll"
                                     href="#poster">Poster</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#gallery">Gallery</a>
                             </li>
                             
                             <li>
@@ -1369,6 +1374,15 @@
         line-height: 1.2;
         box-sizing: border-box;
     }
+
+    .poster-button {
+        text-transform: none;
+        font-weight: 400;
+        background-color: black;
+        border: none;
+        border-radius: unset;
+        font-size: small;
+    }
 </style>
 
 
@@ -1388,10 +1402,12 @@
 
                 <figure class="img-shadow" style="width: 232px; display: inline-block;">
                     <a href="#" data-toggle="modal" data-target="#posterModal">
-                        <img src="/assets/img/poster/poster_web_h1200.jpg" alt="poster"
-                            width="232" height="325" class="img-responsive" style="display: inline-block;">
+                        <img src="/assets/img/poster/poster_web_h1200.jpg" alt="poster" width="232" height="325"
+                            class="img-responsive" style="display: inline-block;">
+                        <!--<figcaption>Poster (🔎)</figcaption>-->
                     </a>
-                    <figcaption>Poster - 🔎</figcaption>
+                    <div class="btn btn-block btn-sm btn-primary poster-button open-modal-btn" data-toggle="modal"
+                        data-target="#posterModal">Poster 🔎</div>
                 </figure>
 
 
@@ -1401,8 +1417,8 @@
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-body modal-centered">
-                                <img src="/assets/img/poster/poster_web_h1200.jpg"
-                                    alt="Enlarged Image" class="img-responsive">
+                                <img src="/assets/img/poster/poster_web_h1200.jpg" alt="Enlarged Image"
+                                    class="img-responsive">
                             </div>
                         </div>
                     </div>
@@ -1414,7 +1430,6 @@
     </div>
 </section>
     <style>
-
     .modal-dialog.modal-dialog-gallery {
         max-width: 900px;
     }
@@ -1492,6 +1507,10 @@
         border: none;
         font-size: small;
     }
+
+    img.gallery-pic:hover {
+    cursor: pointer;
+    }
 </style>
 
 <!-- Gallery Section -->
@@ -1506,11 +1525,11 @@
         <div class="grid">
             
             <div class="col-xs-6 col-sm-4 col-md-4">
-                <div class="product-tile-inner" data-caption="Article published by the &lt;a href=&quot;https://gds.it/&quot; target=&quot;blank&quot;&gt;Giornale di Sicilia&lt;/a&gt; on 5 December 2023. We thank the GdS editorial team!">
-
-                    <img src="assets/img/gallery/20231205_article_gds.jpg">
+                <div class="product-tile-inner" data-caption="The participants during the theoretical lecture of prof. Gioacchino Massimo Palma.">
+                        <img class="gallery-pic open-modal-btn" src="assets/img/gallery/DSC_6798.JPG"
+                            alt="Some moments">
                     <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
-                        data-target="#gallery-modal">Newspaper article on Giornale di Sicilia</div>
+                        data-target="#gallery-modal">Some moments 🔎</div>
 
                 </div>
             </div>
@@ -1518,10 +1537,10 @@
             
             <div class="col-xs-6 col-sm-4 col-md-4">
                 <div class="product-tile-inner" data-caption="The organizing committee and some of the speakers. We truly thank the professors for their scientific contribution. We want to thank the Department of Physics and Chemistry &quot;Emilio Segrè&quot;, in the person of its Director, professor Palma, for hosting and making the event possible.From left to right: Alessandro Catalano, Mauro Paternostro, Alberto Miserendino, Gioacchino Massimo Palma, Gabriele Lo Cascio. ">
-
-                    <img src="assets/img/gallery/DSC_6931_rit.JPG">
+                        <img class="gallery-pic open-modal-btn" src="assets/img/gallery/DSC_6931_rit.JPG"
+                            alt="Organizers, some speakers">
                     <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
-                        data-target="#gallery-modal">Organizing Committee and some speakers</div>
+                        data-target="#gallery-modal">Organizers, some speakers 🔎</div>
 
                 </div>
             </div>
@@ -1529,10 +1548,32 @@
             
             <div class="col-xs-6 col-sm-4 col-md-4">
                 <div class="product-tile-inner" data-caption="Detail of the monitor of one of the participants during a practical session of quantum programming with Qiskit.">
-
-                    <img src="assets/img/gallery/DSC_6895.JPG">
+                        <img class="gallery-pic open-modal-btn" src="assets/img/gallery/DSC_6895.JPG"
+                            alt="Some moments">
                     <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
-                        data-target="#gallery-modal">Monitor screen of a partecipant</div>
+                        data-target="#gallery-modal">Some moments 🔎</div>
+
+                </div>
+            </div>
+
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="One of the two groups of participants during the hands-on session.">
+                        <img class="gallery-pic open-modal-btn" src="assets/img/gallery/1701374883630.jpg"
+                            alt="Some moments">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Some moments 🔎</div>
+
+                </div>
+            </div>
+
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Article published by the newspaper &lt;a href=&quot;https://gds.it/&quot; target=&quot;blank&quot;&gt;Giornale di Sicilia&lt;/a&gt; on 5 December 2023. We thank the GdS editorial team!">
+                        <img class="gallery-pic open-modal-btn" src="assets/img/gallery/20231205_article_gds.jpg"
+                            alt="Newspaper article on GdS">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Newspaper article on GdS 🔎</div>
 
                 </div>
             </div>
@@ -1540,10 +1581,21 @@
             
             <div class="col-xs-6 col-sm-4 col-md-4">
                 <div class="product-tile-inner" data-caption="Detail of the notes of one of the participants during a theoretical session.">
-
-                    <img src="assets/img/gallery/DSC_6854_rit.JPG">
+                        <img class="gallery-pic open-modal-btn" src="assets/img/gallery/DSC_6854_rit.JPG"
+                            alt="Student's notes">
                     <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
-                        data-target="#gallery-modal">Notes</div>
+                        data-target="#gallery-modal">Student's notes 🔎</div>
+
+                </div>
+            </div>
+
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="The participants during a theoretical lecture.">
+                        <img class="gallery-pic open-modal-btn" src="assets/img/gallery/DSC_6819.JPG"
+                            alt="Some moments">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Some moments 🔎</div>
 
                 </div>
             </div>
@@ -1551,21 +1603,21 @@
             
             <div class="col-xs-6 col-sm-4 col-md-4">
                 <div class="product-tile-inner" data-caption="The organizing committee and prof. Grazia Cottone. We sincerely thank the professor for her great collaboration and support during the preparation and carrying out of the event. From left to right: Alessandro Catalano, Alberto Miserendino, Grazia Cottone, Gabriele Lo Cascio.">
-
-                    <img src="assets/img/gallery/DSC_6933_rit.JPG">
+                        <img class="gallery-pic open-modal-btn" src="assets/img/gallery/DSC_6933_rit.JPG"
+                            alt="Organizers, prof. G. Cottone">
                     <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
-                        data-target="#gallery-modal">Organizing Committee and prof. Grazia Cottone</div>
+                        data-target="#gallery-modal">Organizers, prof. G. Cottone 🔎</div>
 
                 </div>
             </div>
 
             
             <div class="col-xs-6 col-sm-4 col-md-4">
-                <div class="product-tile-inner" data-caption="Detail of the monitor of one of the participants during a practical session of quantum programming with Qiskit.">
-
-                    <img src="assets/img/gallery/DSC_6895.JPG">
+                <div class="product-tile-inner" data-caption="Lecture of prof. Mauro Paternostro about the advantage of a quantum approach in Game Theory.">
+                        <img class="gallery-pic open-modal-btn" src="assets/img/gallery/DSC_6921.JPG"
+                            alt="Quantum games">
                     <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
-                        data-target="#gallery-modal">Monitor screen of a partecipant</div>
+                        data-target="#gallery-modal">Quantum games 🔎</div>
 
                 </div>
             </div>
@@ -1595,8 +1647,10 @@
                 // Attach click event to buttons with class 'open-modal-btn' within a '.gallery'
                 var buttons = document.querySelectorAll('.gallery-button.open-modal-btn');
 
+                var images = document.querySelectorAll('.gallery-pic.open-modal-btn');
+
                 // Add click event listener to each button
-                buttons.forEach(function (button) {
+                [...buttons, ...images].forEach(function (button) {
                     button.addEventListener('click', function (event) {
                         // Check if the clicked element has the class 'open-modal-btn'
                         //if (event.target.classList.contains('open-modal-btn')) {
@@ -1612,7 +1666,7 @@
                         galleryModal.querySelector('img').setAttribute('src', imgSrc);
 
                         galleryModal.querySelector('p.text-modal-caption').innerHTML = caption.replace(/&quot;/g, '"'); // =YAML.parse(caption);
-                        
+
 
                         // Show the modal using the dynamically constructed data-target
                         galleryModal.style.display = 'block';
