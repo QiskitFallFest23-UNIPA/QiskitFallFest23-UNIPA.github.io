@@ -964,6 +964,64 @@ blockquote footer {
     margin-right: 0px;
     margin-left: 0px;
 }
+
+.bd-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bd-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bd-callout p:last-child {
+    margin-bottom: 0;
+}
+.bd-callout code {
+    border-radius: 3px;
+}
+.bd-callout+.bd-callout {
+    margin-top: -5px;
+}
+.bd-callout-default {
+    border-left-color: #777;
+}
+.bd-callout-default h4 {
+    color: #777;
+}
+.bd-callout-primary {
+    border-left-color: #428bca;
+}
+.bd-callout-primary h4 {
+    color: #428bca;
+}
+.bd-callout-success {
+    border-left-color: #5cb85c;
+}
+.bd-callout-success h4 {
+    color: #5cb85c;
+}
+.bd-callout-danger {
+    border-left-color: #d9534f;
+}
+.bd-callout-danger h4 {
+    color: #d9534f;
+}
+.bd-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bd-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bd-callout-info {
+    border-left-color: #5bc0de;
+}
+.bd-callout-info h4 {
+    color: #5bc0de;
+}
+
 /* set the `theme_number` variable in `_config.yml` to the theme number you want to use */
 
 

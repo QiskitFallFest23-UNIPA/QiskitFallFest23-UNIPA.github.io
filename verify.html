@@ -17,10 +17,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <meta name="viewport" content="width=device-width">    
-    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//credits/">
+    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//verify">
 
     <!-- Primary Meta Tags -->
-    <title>Credits|Qiskit Fall Fest 2023 @ Palermo, Italy</title>
+    <title>Attendance certificate verification|Qiskit Fall Fest 2023 @ Palermo, Italy</title>
     <meta name="title" content="Qiskit Fall Fest 2023 @ Palermo, Italy" />
     <meta name="description" content="Let's discover quantum computing!">
 
@@ -270,36 +270,54 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="page-heading">Credits</h2>
+                        <h2 class="page-heading">Attendance certificate verification</h2>
                         <h3 class="page-subheading text-muted"></h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12" style="text-align: justify; word-break: break-word">
-                        <h4 id="web-development">web development</h4>
-<ul>
-  <li><a href="/#alberto-miserendino">Alberto Miserendino</a></li>
-  <li><a href="/#gabriele-lo-cascio">Gabriele Lo Cascio</a></li>
-  <li><a href="/#roberto-battaglia">Roberto Battaglia</a></li>
-</ul>
+                        <style>
+.badge.bg-success.rounded-pill {
+    background-color: #28a745 !important;
+}
 
-<h4 id="social-media-management-and-communication">social media management and communication</h4>
-<ul>
-  <li><a href="/#alessandro-catalano">Alessandro Catalano</a></li>
-  <li><a href="/#gabriele-lo-cascio">Gabriele Lo Cascio</a></li>
-</ul>
+.badge.bg-danger.rounded-pill {
+    background-color: #e74c3c !important;
+}
 
-<h4 id="graphics">graphics</h4>
-<ul>
-  <li>Gianni’s quantum micio: <a href="/#giovanni-la-tona">Giovanni La Tona</a></li>
-</ul>
+.list-group-item-success {
+    color: #ffffff;
+    background-color: #28a745 !important;
+}
 
-<h4 id="open-source-resources">open source resources</h4>
-<ul>
-  <li>Jekyll theme: <a href="https://github.com/y7kim/agency-jekyll-theme">Agency Jekyll theme</a>, based on the <a href="https://startbootstrap.com/template-overviews/agency/">Agency bootstrap theme </a></li>
-</ul>
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    border-color: unset !important;
+}
 
+.list-group-item>.badge {
+    float: right !important;
+    /*float: left !important;*/
+}
 
+</style>
+
+<!-- START -->
+<script src="/assets/js/verification/verification.js"></script>
+<script src="/assets/js/verification/verification_page.js"></script>
+
+<div id="verificationResult" role="alert"></div>
+
+<h4 id="certificate_details_title" hidden>Certificate details</h4>
+
+<ul id="certificateDetails" class="list-group list-group-flush" style="display:none;"></ul>
+
+<div id="earningCriteria" class="bd-callout bd-callout-info" style="display:none;">
+    <p>Earning Criteria</p>
+    <ul>
+        <li>Attendance: &ge;80%</li>
+    </ul>
+</div>
+<!-- END -->
                     </div>
                 </div>
             </div>
