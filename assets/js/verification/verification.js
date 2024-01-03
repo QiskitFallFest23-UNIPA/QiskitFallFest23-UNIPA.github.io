@@ -1,7 +1,15 @@
 // Fetch the public key from a static file
 async function fetchPublicKey(keyPath='/assets/keys/public_key.pem') {
     try {
-        const response = await fetch(keyPath);  // Replace with the actual path to your public key file
+        const response = await fetch(keyPath).then((response) => {
+            if (response.ok) {
+                return response;
+            } else {
+                throw new Error('Error fetching public key:', response.statusText);
+            }
+        });
+        
+        // Replace with the actual path to your public key file
         const publicKey = await response.text();
         return publicKey;
     } catch (error) {
