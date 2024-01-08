@@ -15,19 +15,20 @@ window.onload = async function () {
         // Display the verification result
         resultMessage = 'Do you want to verify a certificate?<br>From the .pdf certificate you received, click on the link <code>Verify here</code> or scan the QR code.';
     } else {
-        const certInfoObj = JSON.parse(certInfo.id); //from jsonstring to object
+        let certInfoObj = JSON.parse(certInfo.id); //from jsonstring to object
         //const certInfoStr = JSON.stringify(certInfoObj); //from object to string
 
         // Perform verification when the page loads
         const response = await verifyCertificate(certInfo);
         isValid = response.isValid;
+        certInfoObj.revoked = response.isRevoked;
         console.debug("response:", response);
 
         // Display the verification result
-        resultMessage = isValid ? `This certificate is valid and it was issued to <b>${certInfoObj.issued_to}</b> on <b>${certInfoObj.issued_on}</b>.` : isValid === false ? 'Sorry, but this certificate is not valid and we believe it was falsified!' : `Sorry, but an unexpected error occurred while verifying the certificate! Please contact the issuer of this certificate for more information.<br>Details: <code>${response.error}</code>`;
+        resultMessage = isValid ? `This certificate is valid and it was issued to <b>${certInfoObj.issued_to}</b> on <b>${certInfoObj.issued_on}</b>.` : isValid === false ? `Sorry, but this certificate is not valid!<br>Details: <code>${response.error}</code>` : `Sorry, but an unexpected error occurred while verifying the certificate! Please contact the issuer of this certificate for more information.<br>Details: <code>${response.error}</code>`;
 
         //certificateDetails
-        showCertificateDetails(certInfoObj, isValid, elementId = 'certificateDetails');
+        showCertificateDetails(certInfoObj, response, 'certificateDetails');
 
         //certificate_details_title
         hideElement('certificate_details_title', false);
@@ -82,7 +83,11 @@ function hideElement(elementId, wantToHide = true) {
 }
 
 
-function showCertificateDetails(certInfoObj, isValid, elementId = 'certificateDetails') {
+function showCertificateDetails(certInfoObj, response, elementId = 'certificateDetails') {
+
+    const isValid = response.isValid;
+    const isRevoked = response.isRevoked;
+    const isSigned = response.isSigned;
 
     // for each key-value pair in certInfoObj
     // create a li element with key as id and value as textContent
@@ -110,10 +115,13 @@ function showCertificateDetails(certInfoObj, isValid, elementId = 'certificateDe
     // Append the newly created li to the ul element
     ul.appendChild(li);
 
-    //---------------------------            
+    //---------------------------
 
     // Iterate over each entry in the object
     for (const [key, value] of Object.entries(certInfoObj)) {
+
+        let value_ = value
+
         // Create a new li element
         const li = document.createElement('li');
 
@@ -133,9 +141,25 @@ function showCertificateDetails(certInfoObj, isValid, elementId = 'certificateDe
         span.innerHTML = '&check;';
         li.appendChild(span);
         */
+        let icon = null
+        let color = null
+        if (key !== "revoked") {
+            icon = isValid ? "&check;" : isValid === false ? "&cross;" : "&excl;";
+            color = isValid ? "bg-success" : isValid === false ? "bg-danger" : "bg-warning"
+        } else {
+            // key === "revoked"
+            icon = isRevoked? "&check;" : isRevoked===false ?"&cross;" :"&quest;"; //"&excl;";
+            color = isRevoked? "bg-danger" : isRevoked===false ? "bg-success" : "bg-warning";
+
+            if (value==="null"||value===null){
+                value_="?"
+            }
+        }
+
+
 
         // append textContent="&check;" to li
-        li.innerHTML = `<span class="badge ${isValid ? "bg-success" : isValid === false ? "bg-danger" : "bg-warning"} rounded-pill" style="margin-right:16px;">${isValid ? "&check;" : isValid === false ? "&cross;" : "&excl;"}</span>${key.replace("_", " ")}&nbsp;<b>${value}</b>`;
+        li.innerHTML = `<span class="badge ${color} rounded-pill" style="margin-right:16px;">${icon}</span>${key.replace("_", " ")}&nbsp;<b>${value_}</b>`;
 
 
         // Append the newly created li to the ul element
