@@ -96,8 +96,6 @@ function str2ab(str) {
     //}
 }
 
-//^^OPTIMIZE UNTIL HERE^^
-
 function importRsaKey(pem) {
     // fetch the part of the PEM string between header and footer
     const pemHeader = "-----BEGIN PUBLIC KEY-----";
