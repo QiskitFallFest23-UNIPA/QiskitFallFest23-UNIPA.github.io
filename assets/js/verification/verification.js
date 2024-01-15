@@ -32,7 +32,7 @@ function getQueryParams(url) {
     return Object.fromEntries(urlObj.searchParams.entries());
 }
 
-// Extract certificate ID and signature from the URL
+// Extract certificate data and signature from the URL
 function getCertificateInfo(window) {
     const urlParams = new URLSearchParams(window.location.search);
 
@@ -45,7 +45,7 @@ function getCertificateInfo(window) {
     const response = {};
 
     for (const [key, value] of urlParams) {
-        if (key === 'id' || key === 'signature') {
+        if (key === 'cert' || key === 'signature') {
             try {
                 // Base64 URL-safe to base64
                 let base64String = value.replace(/-/g, '+').replace(/_/g, '/');
@@ -61,10 +61,10 @@ function getCertificateInfo(window) {
         }
     }
 
-    if (!response.id) {
-        console.warn('Certificate ID not found in the URL.');
+    if (!response.cert) {
+        console.warn('Certificate data not found in the URL.');
     } else {
-        console.debug('Certificate ID:', response.id);
+        console.debug('Certificate data:', response.cert);
     }
 
     if (!response.signature) {
@@ -175,9 +175,9 @@ async function verifySignature_2(data, signature, publicKey) {
 // Verify the certificate using the public key and signature
 async function verifyCertificate(certInfo) {
     // Destructure certInfo to extract properties directly.
-    //const certData = certInfo.id;
+    //const certData = certInfo.cert;
     //const signature = certInfo.signature;
-    const { id: certData, signature } = certInfo;
+    const { cert: certData, signature } = certInfo;
 
     // Initiate both asynchronous operations simultaneously to save time.
     //const publicKey = await fetchPublicKey();
@@ -227,7 +227,7 @@ async function verifyCertificate(certInfo) {
 
     // Verify the signature only if all checks passed.
     try {
-        const isSigned = await verifySignature_1(certInfo.id, signature, publicKey);
+        const isSigned = await verifySignature_1(certInfo.cert, signature, publicKey);
         console.log('Certificate verification passed? ', isSigned);
         response.isSigned = isSigned;
     } catch (error) {
@@ -236,7 +236,7 @@ async function verifyCertificate(certInfo) {
         return response;
     }
 
-    //Check if the certificate has been revoked looking up the certificate ID 
+    //Check if the certificate has been revoked looking up the certificate UID 
     //in the Certificate Revocation List (CRL), available at the following URL in JSON format:
     //https://raw.githubusercontent.com/andrea-angella/certificate-revocation-list/main/crl.json
 

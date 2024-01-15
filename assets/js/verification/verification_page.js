@@ -15,7 +15,7 @@ window.onload = async function () {
         // Display the verification result
         resultMessage = 'Do you want to verify a certificate?<br>From the .pdf certificate you received, click on the link <code>Verify here</code> or scan the QR code.';
     } else {
-        let certInfoObj = JSON.parse(certInfo.id); //from jsonstring to object
+        let certInfoObj = JSON.parse(certInfo.cert); //from jsonstring to object
         //const certInfoStr = JSON.stringify(certInfoObj); //from object to string
 
         // Perform verification when the page loads
