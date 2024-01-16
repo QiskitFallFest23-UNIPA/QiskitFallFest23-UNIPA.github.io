@@ -159,7 +159,7 @@ function showCertificateDetails(certInfoObj, response, elementId = 'certificateD
 
 
         // append textContent="&check;" to li
-        li.innerHTML = `<span class="badge ${color} rounded-pill" style="margin-right:16px;">${icon}</span>${key.replace("_", " ")}&nbsp;<b>${value_}</b>`;
+        li.innerHTML = `<span class="badge ${color} rounded-pill" style="margin-right:16px;">${icon}</span>${key.replaceAll("_", " ")}&nbsp;<b>${value_}</b>`;
 
 
         // Append the newly created li to the ul element
