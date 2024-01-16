@@ -148,11 +148,11 @@ function showCertificateDetails(certInfoObj, response, elementId = 'certificateD
             color = isValid ? "bg-success" : isValid === false ? "bg-danger" : "bg-warning"
         } else {
             // key === "revoked"
-            icon = isRevoked? "&check;" : isRevoked===false ?"&cross;" :"&quest;"; //"&excl;";
-            color = isRevoked? "bg-danger" : isRevoked===false ? "bg-success" : "bg-warning";
+            icon = isRevoked ? "&check;" : isRevoked === false ? "&cross;" : "&quest;"; //"&excl;";
+            color = isRevoked ? "bg-danger" : isRevoked === false ? "bg-success" : "bg-warning";
 
-            if (value==="null"||value===null){
-                value_="?"
+            if (value === "null" || value === null) {
+                value_ = "?"
             }
         }
 
@@ -165,4 +165,45 @@ function showCertificateDetails(certInfoObj, response, elementId = 'certificateD
         // Append the newly created li to the ul element
         ul.appendChild(li);
     }
+
+    //get now element ul with id="earningCriteriaList" and add a li element with text content "ciao"
+
+    earningCriteriaList = document.getElementById("earningCriteriaList");
+    const li2 = document.createElement('li');
+
+    if (certInfoObj.revoked === true){
+        return
+    }
+    if (certInfoObj.role === "partecipant") {
+        li2.innerHTML = "<b>Attendance</b>: &ge;80%"
+    } else if (certInfoObj.role === "volunteer") {
+        li2.innerHTML = `<b>Volunteering</b>: In recognition of your exceptional dedication to sharing your skills and your enthusiasm and passion within our community.<br><br>
+
+        Your contributions have enhanced our projects and inspired your peers—demonstrating how individual talents can catalyze collective progress.<br><br>
+
+        For all the time you've invested and the expertise you've imparted, we extend our deepest thanks. Your actions have affirmed that through passionate giving, we all grow stronger together.`
+    } else if (certInfoObj.role === "collaborator") {
+        li2.innerHTML = `<b>Coollaboration</b>: In recognition of your exceptional collaborative spirit and efforts.<br><br>
+        
+        Your active participation, shared responsibility in our projects, deep investment in our shared goals, proactive contributions to decision-making, had a significant impact on project outcomes and they have been invaluable.<br><br>
+        
+        Thank you for making a difference with your passion and drive. Your work has not only furthered our objectives but also enriched the experience of all involved.`
+    } else if (certInfoObj.role === "speaker") {
+        li2.innerHTML = `<b>Scientific contribution</b>: In recognition of your contribution as a speaker at our event. Your expertise and insights have significantly enriched the knowledge and experience of all who attended.<br><br>
+
+        Your dedication to engaging with the audience and sharing your knowledge was evident and much appreciated. Your ability to connect with participants, address their questions, and stimulate thoughtful discussion contributed immeasurably to the success of our gathering.<br><br>
+
+        Thank you once again for your inspiring presence and for adding such remarkable value to our endeavors.
+        `
+    } else if (certInfoObj.role === "organizer") {
+        li2.innerHTML = `<b>Organization</b>: In recognition of your contribution as a organizer at our event. Your incredible dedication and monumental effort have contributed to the success of our event.<br><br>
+        
+        Your organizational and communication skills, your unwavering commitment, collaborative spiritm, creativity and passion have ensured that every aspect of the event was executed flawlessly.<br><br>
+
+        Thank you for your invaluable contribution and for making a difference with your passion and drive.
+    `
+    }
+
+    earningCriteriaList.appendChild(li2);
+
 }
