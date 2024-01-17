@@ -183,7 +183,7 @@ function showCertificateDetails(certInfoObj, response, elementId = 'certificateD
 
         For all the time you've invested and the expertise you've imparted, we extend our deepest thanks. Your actions have affirmed that through passionate giving, we all grow stronger together.`
     } else if (certInfoObj.role === "collaborator") {
-        li2.innerHTML = `<b>Coollaboration</b>: In recognition of your exceptional collaborative spirit and efforts.<br><br>
+        li2.innerHTML = `<b>Collaboration</b>: In recognition of your exceptional collaborative spirit and efforts.<br><br>
         
         Your active participation, shared responsibility in our projects, deep investment in our shared goals, proactive contributions to decision-making, had a significant impact on project outcomes and they have been invaluable.<br><br>
         
