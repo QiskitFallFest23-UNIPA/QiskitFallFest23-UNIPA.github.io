@@ -147,7 +147,7 @@ pre > code {
  */
 .wrapper {
   max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: calc(800px - 30px * 2);
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
@@ -202,7 +202,7 @@ table tr:nth-child(even) {
   background-color: #f7f7f7;
 }
 table th, table td {
-  padding: 10px 15px;
+  padding: 9.999999999px 15px;
 }
 table th {
   background-color: #f0f0f0;
@@ -292,8 +292,8 @@ table td {
   }
   .site-nav .page-link {
     display: block;
-    padding: 5px 10px;
     margin-left: 20px;
+    padding: 5px 10px;
   }
   .site-nav .page-link:not(:last-child) {
     margin-right: 0;
@@ -333,35 +333,35 @@ table td {
 
 .footer-col-1 {
   width: -webkit-calc(35% - (30px / 2));
-  width: calc(35% - (30px / 2));
+  width: calc(35% - 30px / 2);
 }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (30px / 2));
-  width: calc(20% - (30px / 2));
+  width: calc(20% - 30px / 2);
 }
 
 .footer-col-3 {
   width: -webkit-calc(45% - (30px / 2));
-  width: calc(45% - (30px / 2));
+  width: calc(45% - 30px / 2);
 }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
-    width: calc(50% - (30px / 2));
+    width: calc(50% - 30px / 2);
   }
   .footer-col-3 {
     width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2));
+    width: calc(100% - 30px / 2);
   }
 }
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2));
+    width: calc(100% - 30px / 2);
   }
 }
 /**
