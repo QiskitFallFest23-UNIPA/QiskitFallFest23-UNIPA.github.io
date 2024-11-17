@@ -14,9 +14,7 @@ This repository hosts the source code for the event website, available [here](ht
 
 ## 📜 **License**
 
-This project is licensed under the Apache License 2.0, which requires:
-1. Proper attribution to the original authors.  
-2. Inclusion of the original license file in derivative works.
+This project is licensed under the [Apache License 2.0](https://opensource.org/license/apache-2-0).
 See the [LICENSE](LICENSE) file for details.
 
 ---
