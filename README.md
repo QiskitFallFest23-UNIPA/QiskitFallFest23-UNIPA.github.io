@@ -1,4 +1,4 @@
-# Qiskit Fall Fest 2023 @ University of Palermo, Italy
+# Qiskit Fall Fest 2023 @ Palermo, 🇮🇹
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/license/apache-2-0)
 
@@ -22,7 +22,7 @@ See the [LICENSE](LICENSE) file for details.
 ## 🧑‍💻 **Organizing Team**
 
 - [Alberto Miserendino](https://github.com/AlbertoMiserendino)
-- [Alessandro Catalano](https://www.linkedin.com/in/alessandro-catalano-01297828b/)
+- [Alessandro Catalano](https://github.com/AlessandroCatalano98)
 - [Gabriele Lo Cascio](https://github.com/Gabro29)
 
 ## 🧑‍💻 **Graphics and Web development collaborators**
