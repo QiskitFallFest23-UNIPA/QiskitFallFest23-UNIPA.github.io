@@ -1,0 +1,47 @@
+Qiskit Fall Fest 2023 @ Università degli Studi di Palermo, Italy
+Copyright 2023 Alberto Miserendino, Alessandro Catalano, Gabriele Lo Cascio
+
+NOTICE: Any derivative works or redistributions of this project must include this NOTICE file and adhere to the conditions outlined in the license adopted by the project.
+
+---
+
+## License
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+---
+
+## Authors
+The primary authors of this project are:
+- [Alberto Miserendino](https://github.com/AlbertoMiserendino)
+- [Alessandro Catalano](https://github.com/AlessandroCatalano98)
+- [Gabriele Lo Cascio](https://github.com/Gabro29)
+
+## Collaborators
+This project also benefited from contributions by:
+- [Roberto Battaglia](https://github.com/robertobatts)
+- [Giovanni La Tona](https://www.instagram.com/noxil_art/)
+
+---
+
+This project contains contributions from the following third-party sources:
+
+1. **[The quantum micio](https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io/tree/main/assets/img/micio)**
+   - Copyright © 2023 Giovanni La Tona
+
+2. **Qiskit Fall Fest 2023 official graphics** (https://qiskit.org/)
+   - Copyright © 2023 IBM Quantum
+
+3. **Agency Theme for Jekyll** [y7kim/agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme)
+   - Licensed under the Apache License 2.0
+

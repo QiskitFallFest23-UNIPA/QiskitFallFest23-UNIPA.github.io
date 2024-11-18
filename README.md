@@ -1,4 +1,4 @@
-# Qiskit Fall Fest 2023 @ Palermo, 🇮🇹
+# Qiskit Fall Fest 2023 @ University of Palermo, Italy
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/license/apache-2-0)
 
@@ -12,10 +12,16 @@ This repository hosts the source code for the event website, available [here](ht
 
 ---
 
-## 📜 **License**
+## 📜 **License and Attribution**
 
-This project is licensed under the [Apache License 2.0](https://opensource.org/license/apache-2-0).
-See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0). 
+
+If you create derivative works or redistribute this project, you are required to:
+1. Proper attribution to the original authors.  
+2. Include the `NOTICE` file in your distribution.
+3. Inclusion of the original license file in derivative works.
+4. Clearly indicate any modifications made to the original project.
+5. Adhere to the terms specified in the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 ---
 
