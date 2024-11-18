@@ -42,6 +42,19 @@ This project contains contributions from the following third-party sources:
 2. **Qiskit Fall Fest 2023 official graphics** (https://qiskit.org/)
    - Copyright © 2023 IBM Quantum
 
-3. **Agency Theme for Jekyll** [y7kim/agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme)
+3. **Logos and Branding**
+
+    The logos used in this project, including but not limited to:
+     - Qiskit logo
+     - Università degli Studi di Palermo logo
+     - AISF (Associazione Italiana Studenti di Fisica) logo
+     - Vivere Ateneo logo
+     - Vivere Scienze MM.FF.NN. logo
+     - Vivere Ingegneria logo
+     - Nexum s.r.l. logo
+  
+    are the property of their respective owners. These logos are used solely for informational and event-related purposes. Redistribution or reuse of these logos without permission from their respective owners is strictly prohibited.
+
+1. **Agency Theme for Jekyll** [y7kim/agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme)
    - Licensed under the Apache License 2.0
 
