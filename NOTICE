@@ -1,9 +1,8 @@
 Qiskit Fall Fest 2023 @ Università degli Studi di Palermo, Italy
 Copyright 2023 Alberto Miserendino, Alessandro Catalano, Gabriele Lo Cascio
 
-NOTICE: Any derivative works or redistributions of this project must include this NOTICE file and adhere to the conditions outlined in the license adopted by the project.
+**NOTICE**: Any derivative works or redistributions of this project must include this NOTICE file and adhere to the conditions outlined in the license adopted by the project.
 
----
 
 ## License
 
@@ -19,8 +18,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
----
-
 ## Authors
 The primary authors of this project are:
 - [Alberto Miserendino](https://github.com/AlbertoMiserendino)
@@ -32,8 +29,8 @@ This project also benefited from contributions by:
 - [Roberto Battaglia](https://github.com/robertobatts)
 - [Giovanni La Tona](https://www.instagram.com/noxil_art/)
 
----
 
+## Contributions
 This project contains contributions from the following third-party sources:
 
 1. **[The quantum micio](https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io/tree/main/assets/img/micio)**
@@ -46,7 +43,9 @@ This project contains contributions from the following third-party sources:
 
     The logos used in this project, including but not limited to:
      - Qiskit logo
+     - IBM Quantum logo
      - Università degli Studi di Palermo logo
+     - Dipartimento di Fisica e Chimica "Emilio Segrè" (DiFC) - UNIPA logo
      - AISF (Associazione Italiana Studenti di Fisica) logo
      - Vivere Ateneo logo
      - Vivere Scienze MM.FF.NN. logo
@@ -55,6 +54,6 @@ This project contains contributions from the following third-party sources:
   
     are the property of their respective owners. These logos are used solely for informational and event-related purposes. Redistribution or reuse of these logos without permission from their respective owners is strictly prohibited.
 
-1. **Agency Theme for Jekyll** [y7kim/agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme)
+1. **Agency Theme for Jekyll** ([y7kim/agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme))
    - Licensed under the Apache License 2.0
 
