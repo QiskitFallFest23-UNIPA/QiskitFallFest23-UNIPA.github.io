@@ -1,9 +1,6 @@
 Qiskit Fall Fest 2023 @ Università degli Studi di Palermo, Italy
 Copyright 2023 Alberto Miserendino, Alessandro Catalano, Gabriele Lo Cascio
 
-**NOTICE**: Any derivative works or redistributions of this project must include this NOTICE file and adhere to the conditions outlined in the license adopted by the project.
-
-
 ## License
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,6 +14,12 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+## Notice to Derivative Works
+This project is licensed under the Apache License 2.0. Any derivative works or redistributions must:
+1. Include this `NOTICE` file.
+2. Retain all copyright and attribution notices present in the source form.
+3. Ensure compliance with third-party licensing terms, including those governing logos and branding.
 
 ## Authors
 The primary authors of this project are:
@@ -54,6 +57,6 @@ This project contains contributions from the following third-party sources:
   
     are the property of their respective owners. These logos are used solely for informational and event-related purposes. Redistribution or reuse of these logos without permission from their respective owners is strictly prohibited.
 
-1. **Agency Theme for Jekyll** ([y7kim/agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme))
+4. **Agency Theme for Jekyll** ([y7kim/agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme))
    - Licensed under the Apache License 2.0
 
