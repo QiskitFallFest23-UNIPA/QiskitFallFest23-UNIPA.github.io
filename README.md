@@ -19,12 +19,14 @@ This project is licensed under the [Apache License 2.0](http://www.apache.org/li
 If you use or distribute this code (with or without modifications), you are required to:
 
 1. Proper attribution to the original authors. Retain the following attribution in documentation or credits:
-   "This project is based on code originally developed by Alberto Miserendino, Alessandro Catalano, Gabriele Lo Cascio, Roberto Battaglia, Giovanni La Tona for the Qiskit Fall Fest 2023 @ University of Palermo, Italy." 
+   ```
+	This project is based on code originally developed by Alberto Miserendino, Alessandro Catalano, Gabriele Lo Cascio, Roberto Battaglia, Giovanni La Tona for the "Qiskit Fall Fest 2023 @ Palermo" event. 
+	The original repository is available at https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io .
+   ```
 2. Include the original `LICENSE` and `NOTICE` files in your distribution.
-3. Provide a link to the original repository: [https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io].
-4. Clearly indicate any modifications made to the original project.
-5. Adhere to the terms specified in the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
-6. Ensure compliance with third-party licensing terms, including those governing logos and branding.
+3. Clearly indicate any modifications made to the original project.
+4. Adhere to the terms specified in the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+5. Ensure compliance with third-party licensing terms, including those governing logos and branding.
 
 ---
 
